@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/FireBlade211/CsTools/blob/main/docs/getting-started.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -87,10 +87,50 @@
         <article data-uid="">
 <h1 id="getting-started">Getting Started</h1>
 
+<p>To start using CsTools, you need to import the DLL into your Visual Studio project. To import it, follow these steps:</p>
+<h1 id="import-the-dll">Import the DLL</h1>
+<ol>
+<li>Download the latest DLL from the <a href="https://github.com/FireBlade211/CsTools/releases">Releases</a> page.</li>
+<li>In your Visual Studio project, right-click <strong>References</strong> and select <strong>Add Project Reference</strong>.</li>
+<li>In the dialog, select the <strong>Browse</strong> tab from the sidebar.</li>
+<li>Click the <strong>Browse...</strong> button in the bottom-right corner.</li>
+<li>In the file dialog, browse to the DLL you downloaded and select it.</li>
+<li>Back in the <strong>Reference Manager</strong> dialog, make sure the DLL name is checked.</li>
+<li>Finally, press <strong>OK</strong>.</li>
+</ol>
+<h1 id="usage">Usage</h1>
+<p>Now that the DLL is imported into our project, we can start using the CsTools library.
+To start, add <code>using FireBlade.CsUtils</code> at the top of your script. Optionally, you can also
+add <code>using FireBlade.CsUtils.Numbers</code> if you want to get the math components as well. Now that we're set, we can start using the library. For example, you can use some string extension methods:</p>
+<pre><code class="lang-cs">string s = textBox1.Text;
+
+// shortcut
+if (s.IsNotNullOrEmpty())
+{
+	// do something...
+}
+</code></pre>
+<p>Or change the casing of a string:</p>
+<pre><code class="lang-cs">string str = &quot;hello, world!&quot;;
+string newStr = str.SetCasing(StringCasing.Title);
+
+Console.WriteLine(newStr.GetCasing().ToString()); // --&gt; Title
+Console.WriteLine(newStr);
+</code></pre>
+<p>If you have the math components imported, you can use some of the math utilites as well:</p>
+<pre><code class="lang-cs">var range1 = new Range&lt;int&gt;(1, 10);
+var range2 = new Range&lt;int&gt;(11, 20);
+
+var mapped = MathTools.Map&lt;int&gt;(5, range1, range2);
+
+Console.WriteLine(mapped); // --&gt; 15
+</code></pre>
+<p><strong>Note:</strong> CsUtils can handle any number type, because it uses the generic INumber interface, so you can use int, double, float or any other type you want.</p>
 
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/FireBlade211/CsTools/blob/main/docs/getting-started.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

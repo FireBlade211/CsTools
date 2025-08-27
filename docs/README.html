@@ -73,7 +73,34 @@
         <article data-uid="">
 <h1 id="cstools">CsTools</h1>
 
-<p>A C# utility library</p>
+<p>A C# utility library.</p>
+<h1 id="examples">Examples</h1>
+<pre><code class="lang-cs">myStr.IsNullOrEmpty();
+myStr2.IsNullOrWhiteSpace();
+myIntString.TryParseNumber&lt;int&gt;(out int val);
+
+char[] chars = ['t', 'e', 's', 't'];
+Console.WriteLine(chars.GetString()); // --&gt; test
+
+if (&quot;Some Text&quot;.GetCasing() == StringCasing.Title)
+{
+  Console.WriteLine(&quot;Is title case!&quot;);
+}
+
+Console.WriteLine(&quot;RandomTest&quot;.SetCasing(StringCasing.Camel)); // --&gt; randomTest
+
+&quot;Bob&quot;.IsPalindrome();
+
+Console.WriteLine(MathTools.Map(5, new Range&lt;int&gt;(1, 10), new Range&lt;int&gt;(11, 20))); // --&gt; 15
+
+MathTools.Mod(10, 2);
+
+MathTools.IsEven(6);
+MathTools.IsOdd(3);
+</code></pre>
+<h1 id="usage">Usage</h1>
+<p>To use the library, download the DLL from the <a href="https://github.com/FireBlade211/CsTools/releases">Releases</a> page, and add it as a reference in your project within Visual Studio.
+The base namespace is <code>FireBlade.CsTools</code>. For the math functions and utilities, use <code>FireBlade.CsTools.Numbers</code>.</p>
 
 </article>
 

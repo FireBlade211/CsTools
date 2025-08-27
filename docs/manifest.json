@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/Users/Piotr/Projects/Visual Studio Repos/CsTools/gh-pages",
+  "source_base_path": "C:/Users/Piotr/Projects/Visual Studio Repos/CsTools",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,6 +9,16 @@
           "relative_path": "index.json"
         }
       }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
     },
     {
       "type": "ManagedReference",

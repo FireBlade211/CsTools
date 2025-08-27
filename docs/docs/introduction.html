@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/FireBlade211/CsTools/blob/main/docs/introduction.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -87,10 +87,36 @@
         <article data-uid="">
 <h1 id="introduction">Introduction</h1>
 
+<p><strong>CsTools</strong> is a C# utility library written in .NET 8. It provides common utilites of all types - strings, math tools, and others. For example, you can change and retrieve a casing mode for a string, or map numbers of any numeric type that exists (because of the generic INumber interface) from an input range to an output range.</p>
+<h2 id="example">Example</h2>
+<pre><code class="lang-cs">myStr.IsNullOrEmpty();
+myStr2.IsNullOrWhiteSpace();
+myIntString.TryParseNumber&lt;int&gt;(out int val);
+
+char[] chars = ['t', 'e', 's', 't'];
+Console.WriteLine(chars.GetString()); // --&gt; test
+
+if (&quot;Some Text&quot;.GetCasing() == StringCasing.Title)
+{
+  Console.WriteLine(&quot;Is title case!&quot;);
+}
+
+Console.WriteLine(&quot;RandomTest&quot;.SetCasing(StringCasing.Camel)); // --&gt; randomTest
+
+&quot;Bob&quot;.IsPalindrome();
+
+Console.WriteLine(MathTools.Map(5, new Range&lt;int&gt;(1, 10), new Range&lt;int&gt;(11, 20))); // --&gt; 15
+
+MathTools.Mod(10, 2);
+
+MathTools.IsEven(6);
+MathTools.IsOdd(3);
+</code></pre>
 
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/FireBlade211/CsTools/blob/main/docs/introduction.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
