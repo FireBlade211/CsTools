@@ -1,0 +1,487 @@
+### YamlMime:ManagedReference
+items:
+- uid: FireBlade.CsTools.StringCasing
+  commentId: T:FireBlade.CsTools.StringCasing
+  id: StringCasing
+  parent: FireBlade.CsTools
+  children:
+  - FireBlade.CsTools.StringCasing.Alternating
+  - FireBlade.CsTools.StringCasing.AlternatingNormal
+  - FireBlade.CsTools.StringCasing.AlternatingReverse
+  - FireBlade.CsTools.StringCasing.Camel
+  - FireBlade.CsTools.StringCasing.Inverse
+  - FireBlade.CsTools.StringCasing.Lower
+  - FireBlade.CsTools.StringCasing.Other
+  - FireBlade.CsTools.StringCasing.Pascal
+  - FireBlade.CsTools.StringCasing.Snake
+  - FireBlade.CsTools.StringCasing.Title
+  - FireBlade.CsTools.StringCasing.Upper
+  langs:
+  - csharp
+  - vb
+  name: StringCasing
+  nameWithType: StringCasing
+  fullName: FireBlade.CsTools.StringCasing
+  type: Enum
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: StringCasing
+    path: ../CsTools/StringExtensions.cs
+    startLine: 311
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Specifies the casing of a string.
+  example: []
+  syntax:
+    content: public enum StringCasing
+    content.vb: Public Enum StringCasing
+- uid: FireBlade.CsTools.StringCasing.Other
+  commentId: F:FireBlade.CsTools.StringCasing.Other
+  id: Other
+  parent: FireBlade.CsTools.StringCasing
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: StringCasing.Other
+  fullName: FireBlade.CsTools.StringCasing.Other
+  type: Field
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: Other
+    path: ../CsTools/StringExtensions.cs
+    startLine: 317
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: >-
+    The capitalization mode doesn't match any default mode. Cannot be set for <xref href="FireBlade.CsTools.StringExtensions.SetCasing(System.String%2cFireBlade.CsTools.StringCasing)" data-throw-if-not-resolved="false"></xref>, but can be retrieved
+
+    through <xref href="FireBlade.CsTools.StringExtensions.GetCasing(System.String)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: Other = 0
+    return:
+      type: FireBlade.CsTools.StringCasing
+- uid: FireBlade.CsTools.StringCasing.Upper
+  commentId: F:FireBlade.CsTools.StringCasing.Upper
+  id: Upper
+  parent: FireBlade.CsTools.StringCasing
+  langs:
+  - csharp
+  - vb
+  name: Upper
+  nameWithType: StringCasing.Upper
+  fullName: FireBlade.CsTools.StringCasing.Upper
+  type: Field
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: Upper
+    path: ../CsTools/StringExtensions.cs
+    startLine: 322
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: All characters are uppercase.
+  example:
+  - THIS IS AN EXAMPLE.
+  syntax:
+    content: Upper = 1
+    return:
+      type: FireBlade.CsTools.StringCasing
+- uid: FireBlade.CsTools.StringCasing.Lower
+  commentId: F:FireBlade.CsTools.StringCasing.Lower
+  id: Lower
+  parent: FireBlade.CsTools.StringCasing
+  langs:
+  - csharp
+  - vb
+  name: Lower
+  nameWithType: StringCasing.Lower
+  fullName: FireBlade.CsTools.StringCasing.Lower
+  type: Field
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: Lower
+    path: ../CsTools/StringExtensions.cs
+    startLine: 327
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: All characters are lowercase.
+  example:
+  - this is an example.
+  syntax:
+    content: Lower = 2
+    return:
+      type: FireBlade.CsTools.StringCasing
+- uid: FireBlade.CsTools.StringCasing.Title
+  commentId: F:FireBlade.CsTools.StringCasing.Title
+  id: Title
+  parent: FireBlade.CsTools.StringCasing
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: StringCasing.Title
+  fullName: FireBlade.CsTools.StringCasing.Title
+  type: Field
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: Title
+    path: ../CsTools/StringExtensions.cs
+    startLine: 332
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: The first letter of every word is capitalized and words are seperated by spaces.
+  example:
+  - This Is An Example.
+  syntax:
+    content: Title = 3
+    return:
+      type: FireBlade.CsTools.StringCasing
+- uid: FireBlade.CsTools.StringCasing.Pascal
+  commentId: F:FireBlade.CsTools.StringCasing.Pascal
+  id: Pascal
+  parent: FireBlade.CsTools.StringCasing
+  langs:
+  - csharp
+  - vb
+  name: Pascal
+  nameWithType: StringCasing.Pascal
+  fullName: FireBlade.CsTools.StringCasing.Pascal
+  type: Field
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: Pascal
+    path: ../CsTools/StringExtensions.cs
+    startLine: 337
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: The first letter of every word is capitalized, but words are NOT seperated by spaces.
+  example:
+  - ThisIsAnExample
+  syntax:
+    content: Pascal = 4
+    return:
+      type: FireBlade.CsTools.StringCasing
+- uid: FireBlade.CsTools.StringCasing.Camel
+  commentId: F:FireBlade.CsTools.StringCasing.Camel
+  id: Camel
+  parent: FireBlade.CsTools.StringCasing
+  langs:
+  - csharp
+  - vb
+  name: Camel
+  nameWithType: StringCasing.Camel
+  fullName: FireBlade.CsTools.StringCasing.Camel
+  type: Field
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: Camel
+    path: ../CsTools/StringExtensions.cs
+    startLine: 342
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: The same as <xref href="FireBlade.CsTools.StringCasing.Pascal" data-throw-if-not-resolved="false"></xref>, but the first word is not capitalized.
+  example:
+  - thisIsAnExample
+  syntax:
+    content: Camel = 5
+    return:
+      type: FireBlade.CsTools.StringCasing
+- uid: FireBlade.CsTools.StringCasing.Snake
+  commentId: F:FireBlade.CsTools.StringCasing.Snake
+  id: Snake
+  parent: FireBlade.CsTools.StringCasing
+  langs:
+  - csharp
+  - vb
+  name: Snake
+  nameWithType: StringCasing.Snake
+  fullName: FireBlade.CsTools.StringCasing.Snake
+  type: Field
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: Snake
+    path: ../CsTools/StringExtensions.cs
+    startLine: 347
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Words can have any captialization, but they are seperated by underscores.
+  example:
+  - This_is_an_example
+  syntax:
+    content: Snake = 6
+    return:
+      type: FireBlade.CsTools.StringCasing
+- uid: FireBlade.CsTools.StringCasing.Inverse
+  commentId: F:FireBlade.CsTools.StringCasing.Inverse
+  id: Inverse
+  parent: FireBlade.CsTools.StringCasing
+  langs:
+  - csharp
+  - vb
+  name: Inverse
+  nameWithType: StringCasing.Inverse
+  fullName: FireBlade.CsTools.StringCasing.Inverse
+  type: Field
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: Inverse
+    path: ../CsTools/StringExtensions.cs
+    startLine: 352
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: The inverse of <xref href="FireBlade.CsTools.StringCasing.Title" data-throw-if-not-resolved="false"></xref>.
+  example:
+  - tHIS iS aN eXAMPLE.
+  syntax:
+    content: Inverse = 7
+    return:
+      type: FireBlade.CsTools.StringCasing
+- uid: FireBlade.CsTools.StringCasing.Alternating
+  commentId: F:FireBlade.CsTools.StringCasing.Alternating
+  id: Alternating
+  parent: FireBlade.CsTools.StringCasing
+  langs:
+  - csharp
+  - vb
+  name: Alternating
+  nameWithType: StringCasing.Alternating
+  fullName: FireBlade.CsTools.StringCasing.Alternating
+  type: Field
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: Alternating
+    path: ../CsTools/StringExtensions.cs
+    startLine: 358
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: >-
+    Every 1st character is uppercase, and every 2nd character is lowercase, or reverse. Cannot be set for <xref href="FireBlade.CsTools.StringExtensions.SetCasing(System.String%2cFireBlade.CsTools.StringCasing)" data-throw-if-not-resolved="false"></xref>,
+
+    but can be retrieved through <xref href="FireBlade.CsTools.StringExtensions.GetCasing(System.String)" data-throw-if-not-resolved="false"></xref>.
+  example:
+  - ThIs Is An ExAmPlE.
+  syntax:
+    content: Alternating = 8
+    return:
+      type: FireBlade.CsTools.StringCasing
+- uid: FireBlade.CsTools.StringCasing.AlternatingNormal
+  commentId: F:FireBlade.CsTools.StringCasing.AlternatingNormal
+  id: AlternatingNormal
+  parent: FireBlade.CsTools.StringCasing
+  langs:
+  - csharp
+  - vb
+  name: AlternatingNormal
+  nameWithType: StringCasing.AlternatingNormal
+  fullName: FireBlade.CsTools.StringCasing.AlternatingNormal
+  type: Field
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: AlternatingNormal
+    path: ../CsTools/StringExtensions.cs
+    startLine: 363
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: >-
+    Every 1st character is uppercase, and every 2nd character is lowercase, or reverse. Cannot be retrieved
+
+    through <xref href="FireBlade.CsTools.StringExtensions.GetCasing(System.String)" data-throw-if-not-resolved="false"></xref> (see <xref href="FireBlade.CsTools.StringCasing.Alternating" data-throw-if-not-resolved="false"></xref> instead).
+  example: []
+  syntax:
+    content: AlternatingNormal = 9
+    return:
+      type: FireBlade.CsTools.StringCasing
+- uid: FireBlade.CsTools.StringCasing.AlternatingReverse
+  commentId: F:FireBlade.CsTools.StringCasing.AlternatingReverse
+  id: AlternatingReverse
+  parent: FireBlade.CsTools.StringCasing
+  langs:
+  - csharp
+  - vb
+  name: AlternatingReverse
+  nameWithType: StringCasing.AlternatingReverse
+  fullName: FireBlade.CsTools.StringCasing.AlternatingReverse
+  type: Field
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: AlternatingReverse
+    path: ../CsTools/StringExtensions.cs
+    startLine: 368
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: >-
+    Every 2nd character is uppercase, and every 1st character is lowercase, or reverse. Cannot be retrieved through
+
+    <xref href="FireBlade.CsTools.StringExtensions.GetCasing(System.String)" data-throw-if-not-resolved="false"></xref> (see <xref href="FireBlade.CsTools.StringCasing.Alternating" data-throw-if-not-resolved="false"></xref> instead).
+  example: []
+  syntax:
+    content: AlternatingReverse = 10
+    return:
+      type: FireBlade.CsTools.StringCasing
+references:
+- uid: FireBlade.CsTools
+  commentId: N:FireBlade.CsTools
+  href: FireBlade.html
+  name: FireBlade.CsTools
+  nameWithType: FireBlade.CsTools
+  fullName: FireBlade.CsTools
+  spec.csharp:
+  - uid: FireBlade
+    name: FireBlade
+    href: FireBlade.html
+  - name: .
+  - uid: FireBlade.CsTools
+    name: CsTools
+    href: FireBlade.CsTools.html
+  spec.vb:
+  - uid: FireBlade
+    name: FireBlade
+    href: FireBlade.html
+  - name: .
+  - uid: FireBlade.CsTools
+    name: CsTools
+    href: FireBlade.CsTools.html
+- uid: FireBlade.CsTools.StringExtensions.SetCasing(System.String,FireBlade.CsTools.StringCasing)
+  commentId: M:FireBlade.CsTools.StringExtensions.SetCasing(System.String,FireBlade.CsTools.StringCasing)
+  isExternal: true
+  href: FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_SetCasing_System_String_FireBlade_CsTools_StringCasing_
+  name: SetCasing(string, StringCasing)
+  nameWithType: StringExtensions.SetCasing(string, StringCasing)
+  fullName: FireBlade.CsTools.StringExtensions.SetCasing(string, FireBlade.CsTools.StringCasing)
+  nameWithType.vb: StringExtensions.SetCasing(String, StringCasing)
+  fullName.vb: FireBlade.CsTools.StringExtensions.SetCasing(String, FireBlade.CsTools.StringCasing)
+  name.vb: SetCasing(String, StringCasing)
+  spec.csharp:
+  - uid: FireBlade.CsTools.StringExtensions.SetCasing(System.String,FireBlade.CsTools.StringCasing)
+    name: SetCasing
+    href: FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_SetCasing_System_String_FireBlade_CsTools_StringCasing_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: FireBlade.CsTools.StringCasing
+    name: StringCasing
+    href: FireBlade.CsTools.StringCasing.html
+  - name: )
+  spec.vb:
+  - uid: FireBlade.CsTools.StringExtensions.SetCasing(System.String,FireBlade.CsTools.StringCasing)
+    name: SetCasing
+    href: FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_SetCasing_System_String_FireBlade_CsTools_StringCasing_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: FireBlade.CsTools.StringCasing
+    name: StringCasing
+    href: FireBlade.CsTools.StringCasing.html
+  - name: )
+- uid: FireBlade.CsTools.StringExtensions.GetCasing(System.String)
+  commentId: M:FireBlade.CsTools.StringExtensions.GetCasing(System.String)
+  isExternal: true
+  href: FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_GetCasing_System_String_
+  name: GetCasing(string)
+  nameWithType: StringExtensions.GetCasing(string)
+  fullName: FireBlade.CsTools.StringExtensions.GetCasing(string)
+  nameWithType.vb: StringExtensions.GetCasing(String)
+  fullName.vb: FireBlade.CsTools.StringExtensions.GetCasing(String)
+  name.vb: GetCasing(String)
+  spec.csharp:
+  - uid: FireBlade.CsTools.StringExtensions.GetCasing(System.String)
+    name: GetCasing
+    href: FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_GetCasing_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: FireBlade.CsTools.StringExtensions.GetCasing(System.String)
+    name: GetCasing
+    href: FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_GetCasing_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: FireBlade.CsTools.StringCasing
+  commentId: T:FireBlade.CsTools.StringCasing
+  parent: FireBlade.CsTools
+  href: FireBlade.CsTools.StringCasing.html
+  name: StringCasing
+  nameWithType: StringCasing
+  fullName: FireBlade.CsTools.StringCasing
+- uid: FireBlade.CsTools.StringCasing.Pascal
+  commentId: F:FireBlade.CsTools.StringCasing.Pascal
+  href: FireBlade.CsTools.StringCasing.html#FireBlade_CsTools_StringCasing_Pascal
+  name: Pascal
+  nameWithType: StringCasing.Pascal
+  fullName: FireBlade.CsTools.StringCasing.Pascal
+- uid: FireBlade.CsTools.StringCasing.Title
+  commentId: F:FireBlade.CsTools.StringCasing.Title
+  href: FireBlade.CsTools.StringCasing.html#FireBlade_CsTools_StringCasing_Title
+  name: Title
+  nameWithType: StringCasing.Title
+  fullName: FireBlade.CsTools.StringCasing.Title
+- uid: FireBlade.CsTools.StringCasing.Alternating
+  commentId: F:FireBlade.CsTools.StringCasing.Alternating
+  href: FireBlade.CsTools.StringCasing.html#FireBlade_CsTools_StringCasing_Alternating
+  name: Alternating
+  nameWithType: StringCasing.Alternating
+  fullName: FireBlade.CsTools.StringCasing.Alternating

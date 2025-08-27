@@ -1,0 +1,186 @@
+{
+  "source_base_path": "C:/Users/Piotr/Projects/Visual Studio Repos/CsTools/gh-pages",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FireBlade.CsTools.Numbers.MathTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FireBlade.CsTools.Numbers.MathTools.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FireBlade.CsTools.Numbers.MathTools",
+      "Summary": "<p sourcefile=\"api/FireBlade.CsTools.Numbers.MathTools.yml\" sourcestartlinenumber=\"1\">Provides mathematical tools.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FireBlade.CsTools.Numbers.NumberExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FireBlade.CsTools.Numbers.NumberExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FireBlade.CsTools.Numbers.NumberExtensions",
+      "Summary": "<p sourcefile=\"api/FireBlade.CsTools.Numbers.NumberExtensions.yml\" sourcestartlinenumber=\"1\">Extends number types such as <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"System.Single\" data-throw-if-not-resolved=\"false\"></xref>, or <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FireBlade.CsTools.Numbers.Range-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FireBlade.CsTools.Numbers.Range-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FireBlade.CsTools.Numbers.Range<TNum>",
+      "Summary": "<p sourcefile=\"api/FireBlade.CsTools.Numbers.Range-1.yml\" sourcestartlinenumber=\"1\">Represents a range of numbers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FireBlade.CsTools.Numbers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FireBlade.CsTools.Numbers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FireBlade.CsTools.Numbers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FireBlade.CsTools.StringCasing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FireBlade.CsTools.StringCasing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FireBlade.CsTools.StringCasing",
+      "Summary": "<p sourcefile=\"api/FireBlade.CsTools.StringCasing.yml\" sourcestartlinenumber=\"1\">Specifies the casing of a string.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FireBlade.CsTools.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FireBlade.CsTools.StringExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FireBlade.CsTools.StringExtensions",
+      "Summary": "<p sourcefile=\"api/FireBlade.CsTools.StringExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for strings.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FireBlade.CsTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FireBlade.CsTools.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FireBlade.CsTools",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

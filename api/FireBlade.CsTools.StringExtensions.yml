@@ -1,0 +1,1274 @@
+### YamlMime:ManagedReference
+items:
+- uid: FireBlade.CsTools.StringExtensions
+  commentId: T:FireBlade.CsTools.StringExtensions
+  id: StringExtensions
+  parent: FireBlade.CsTools
+  children:
+  - FireBlade.CsTools.StringExtensions.GetCasing(System.String)
+  - FireBlade.CsTools.StringExtensions.GetString(System.Collections.Generic.IEnumerable{System.Char})
+  - FireBlade.CsTools.StringExtensions.IsNotNullOrEmpty(System.String)
+  - FireBlade.CsTools.StringExtensions.IsNotNullOrWhiteSpace(System.String)
+  - FireBlade.CsTools.StringExtensions.IsNullOrEmpty(System.String)
+  - FireBlade.CsTools.StringExtensions.IsNullOrWhiteSpace(System.String)
+  - FireBlade.CsTools.StringExtensions.IsPalindrome(System.String)
+  - FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String)
+  - FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String,System.Globalization.NumberStyles)
+  - FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
+  - FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String,System.IFormatProvider)
+  - FireBlade.CsTools.StringExtensions.SetCasing(System.String,FireBlade.CsTools.StringCasing)
+  - FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,System.Globalization.NumberStyles,``0@)
+  - FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,System.IFormatProvider,System.Globalization.NumberStyles,``0@)
+  - FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,System.IFormatProvider,``0@)
+  - FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,``0@)
+  langs:
+  - csharp
+  - vb
+  name: StringExtensions
+  nameWithType: StringExtensions
+  fullName: FireBlade.CsTools.StringExtensions
+  type: Class
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: StringExtensions
+    path: ../CsTools/StringExtensions.cs
+    startLine: 9
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Provides extension methods for strings.
+  example: []
+  syntax:
+    content: public static class StringExtensions
+    content.vb: Public Module StringExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: FireBlade.CsTools.StringExtensions.IsNullOrEmpty(System.String)
+  commentId: M:FireBlade.CsTools.StringExtensions.IsNullOrEmpty(System.String)
+  id: IsNullOrEmpty(System.String)
+  isExtensionMethod: true
+  parent: FireBlade.CsTools.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsNullOrEmpty(string?)
+  nameWithType: StringExtensions.IsNullOrEmpty(string?)
+  fullName: FireBlade.CsTools.StringExtensions.IsNullOrEmpty(string?)
+  type: Method
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: IsNullOrEmpty
+    path: ../CsTools/StringExtensions.cs
+    startLine: 16
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Indicates whether the string is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> or an empty string (<xref href="System.String.Empty" data-throw-if-not-resolved="false"></xref>).
+  example: []
+  syntax:
+    content: public static bool IsNullOrEmpty(this string? s)
+    parameters:
+    - id: s
+      type: System.String
+      description: The string to check.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the string is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> or an empty string; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Shared Function IsNullOrEmpty(s As String) As Boolean
+  overload: FireBlade.CsTools.StringExtensions.IsNullOrEmpty*
+  nameWithType.vb: StringExtensions.IsNullOrEmpty(String)
+  fullName.vb: FireBlade.CsTools.StringExtensions.IsNullOrEmpty(String)
+  name.vb: IsNullOrEmpty(String)
+- uid: FireBlade.CsTools.StringExtensions.IsNullOrWhiteSpace(System.String)
+  commentId: M:FireBlade.CsTools.StringExtensions.IsNullOrWhiteSpace(System.String)
+  id: IsNullOrWhiteSpace(System.String)
+  isExtensionMethod: true
+  parent: FireBlade.CsTools.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsNullOrWhiteSpace(string?)
+  nameWithType: StringExtensions.IsNullOrWhiteSpace(string?)
+  fullName: FireBlade.CsTools.StringExtensions.IsNullOrWhiteSpace(string?)
+  type: Method
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: IsNullOrWhiteSpace
+    path: ../CsTools/StringExtensions.cs
+    startLine: 24
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Indicates whether the string is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>, empty (<xref href="System.String.Empty" data-throw-if-not-resolved="false"></xref>), or consists of only whitespace characters.
+  example: []
+  syntax:
+    content: public static bool IsNullOrWhiteSpace(this string? s)
+    parameters:
+    - id: s
+      type: System.String
+      description: The string to check.
+    return:
+      type: System.Boolean
+      description: >-
+        <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the string is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> or an empty string, or if the string consists
+            exclusively of whitespace characters; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Shared Function IsNullOrWhiteSpace(s As String) As Boolean
+  overload: FireBlade.CsTools.StringExtensions.IsNullOrWhiteSpace*
+  nameWithType.vb: StringExtensions.IsNullOrWhiteSpace(String)
+  fullName.vb: FireBlade.CsTools.StringExtensions.IsNullOrWhiteSpace(String)
+  name.vb: IsNullOrWhiteSpace(String)
+- uid: FireBlade.CsTools.StringExtensions.IsNotNullOrEmpty(System.String)
+  commentId: M:FireBlade.CsTools.StringExtensions.IsNotNullOrEmpty(System.String)
+  id: IsNotNullOrEmpty(System.String)
+  isExtensionMethod: true
+  parent: FireBlade.CsTools.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsNotNullOrEmpty(string?)
+  nameWithType: StringExtensions.IsNotNullOrEmpty(string?)
+  fullName: FireBlade.CsTools.StringExtensions.IsNotNullOrEmpty(string?)
+  type: Method
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: IsNotNullOrEmpty
+    path: ../CsTools/StringExtensions.cs
+    startLine: 31
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Indicates whether the string is not <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> or an empty string (<xref href="System.String.Empty" data-throw-if-not-resolved="false"></xref>).
+  example: []
+  syntax:
+    content: public static bool IsNotNullOrEmpty(this string? s)
+    parameters:
+    - id: s
+      type: System.String
+      description: The string to check.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the string is not <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> or an empty string; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Shared Function IsNotNullOrEmpty(s As String) As Boolean
+  overload: FireBlade.CsTools.StringExtensions.IsNotNullOrEmpty*
+  nameWithType.vb: StringExtensions.IsNotNullOrEmpty(String)
+  fullName.vb: FireBlade.CsTools.StringExtensions.IsNotNullOrEmpty(String)
+  name.vb: IsNotNullOrEmpty(String)
+- uid: FireBlade.CsTools.StringExtensions.IsNotNullOrWhiteSpace(System.String)
+  commentId: M:FireBlade.CsTools.StringExtensions.IsNotNullOrWhiteSpace(System.String)
+  id: IsNotNullOrWhiteSpace(System.String)
+  isExtensionMethod: true
+  parent: FireBlade.CsTools.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsNotNullOrWhiteSpace(string?)
+  nameWithType: StringExtensions.IsNotNullOrWhiteSpace(string?)
+  fullName: FireBlade.CsTools.StringExtensions.IsNotNullOrWhiteSpace(string?)
+  type: Method
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: IsNotNullOrWhiteSpace
+    path: ../CsTools/StringExtensions.cs
+    startLine: 39
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Indicates whether the string is not <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>, empty (<xref href="System.String.Empty" data-throw-if-not-resolved="false"></xref>), or doesn't consist of only whitespace characters.
+  example: []
+  syntax:
+    content: public static bool IsNotNullOrWhiteSpace(this string? s)
+    parameters:
+    - id: s
+      type: System.String
+      description: The string to check.
+    return:
+      type: System.Boolean
+      description: >-
+        <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the string is not <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> or an empty string, or if the string doesn't consist
+            exclusively of whitespace characters; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Shared Function IsNotNullOrWhiteSpace(s As String) As Boolean
+  overload: FireBlade.CsTools.StringExtensions.IsNotNullOrWhiteSpace*
+  nameWithType.vb: StringExtensions.IsNotNullOrWhiteSpace(String)
+  fullName.vb: FireBlade.CsTools.StringExtensions.IsNotNullOrWhiteSpace(String)
+  name.vb: IsNotNullOrWhiteSpace(String)
+- uid: FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,``0@)
+  commentId: M:FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,``0@)
+  id: TryParseNumber``1(System.String,``0@)
+  isExtensionMethod: true
+  parent: FireBlade.CsTools.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParseNumber<TNum>(string, out TNum)
+  nameWithType: StringExtensions.TryParseNumber<TNum>(string, out TNum)
+  fullName: FireBlade.CsTools.StringExtensions.TryParseNumber<TNum>(string, out TNum)
+  type: Method
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: TryParseNumber
+    path: ../CsTools/StringExtensions.cs
+    startLine: 48
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Tries to parse the string into a number.
+  example: []
+  syntax:
+    content: 'public static bool TryParseNumber<TNum>(this string s, out TNum result) where TNum : INumber<TNum>'
+    parameters:
+    - id: s
+      type: System.String
+      description: The string to try to parse.
+    - id: result
+      type: '{TNum}'
+      description: The result, if successful.
+    typeParameters:
+    - id: TNum
+      description: The number type.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the conversion succeeded; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Shared Function TryParseNumber(Of TNum As INumber(Of TNum))(s As String, result As TNum) As Boolean
+  overload: FireBlade.CsTools.StringExtensions.TryParseNumber*
+  nameWithType.vb: StringExtensions.TryParseNumber(Of TNum)(String, TNum)
+  fullName.vb: FireBlade.CsTools.StringExtensions.TryParseNumber(Of TNum)(String, TNum)
+  name.vb: TryParseNumber(Of TNum)(String, TNum)
+- uid: FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,System.IFormatProvider,``0@)
+  commentId: M:FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,System.IFormatProvider,``0@)
+  id: TryParseNumber``1(System.String,System.IFormatProvider,``0@)
+  isExtensionMethod: true
+  parent: FireBlade.CsTools.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParseNumber<TNum>(string, IFormatProvider, out TNum)
+  nameWithType: StringExtensions.TryParseNumber<TNum>(string, IFormatProvider, out TNum)
+  fullName: FireBlade.CsTools.StringExtensions.TryParseNumber<TNum>(string, System.IFormatProvider, out TNum)
+  type: Method
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: TryParseNumber
+    path: ../CsTools/StringExtensions.cs
+    startLine: 58
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Tries to parse the string into a number.
+  example: []
+  syntax:
+    content: 'public static bool TryParseNumber<TNum>(this string s, IFormatProvider provider, out TNum result) where TNum : INumber<TNum>'
+    parameters:
+    - id: s
+      type: System.String
+      description: The string to try to parse.
+    - id: provider
+      type: System.IFormatProvider
+      description: An object that contains culture-specific formatting information.
+    - id: result
+      type: '{TNum}'
+      description: The result, if successful.
+    typeParameters:
+    - id: TNum
+      description: The number type.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the conversion succeeded; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Shared Function TryParseNumber(Of TNum As INumber(Of TNum))(s As String, provider As IFormatProvider, result As TNum) As Boolean
+  overload: FireBlade.CsTools.StringExtensions.TryParseNumber*
+  nameWithType.vb: StringExtensions.TryParseNumber(Of TNum)(String, IFormatProvider, TNum)
+  fullName.vb: FireBlade.CsTools.StringExtensions.TryParseNumber(Of TNum)(String, System.IFormatProvider, TNum)
+  name.vb: TryParseNumber(Of TNum)(String, IFormatProvider, TNum)
+- uid: FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,System.Globalization.NumberStyles,``0@)
+  commentId: M:FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,System.Globalization.NumberStyles,``0@)
+  id: TryParseNumber``1(System.String,System.Globalization.NumberStyles,``0@)
+  isExtensionMethod: true
+  parent: FireBlade.CsTools.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParseNumber<TNum>(string, NumberStyles, out TNum)
+  nameWithType: StringExtensions.TryParseNumber<TNum>(string, NumberStyles, out TNum)
+  fullName: FireBlade.CsTools.StringExtensions.TryParseNumber<TNum>(string, System.Globalization.NumberStyles, out TNum)
+  type: Method
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: TryParseNumber
+    path: ../CsTools/StringExtensions.cs
+    startLine: 69
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Tries to parse the string into a number.
+  example: []
+  syntax:
+    content: 'public static bool TryParseNumber<TNum>(this string s, NumberStyles style, out TNum result) where TNum : INumber<TNum>'
+    parameters:
+    - id: s
+      type: System.String
+      description: The string to try to parse.
+    - id: style
+      type: System.Globalization.NumberStyles
+      description: A bitwise combination of styles present in the string.
+    - id: result
+      type: '{TNum}'
+      description: The result, if successful.
+    typeParameters:
+    - id: TNum
+      description: The number type.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the conversion succeeded; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Shared Function TryParseNumber(Of TNum As INumber(Of TNum))(s As String, style As NumberStyles, result As TNum) As Boolean
+  overload: FireBlade.CsTools.StringExtensions.TryParseNumber*
+  nameWithType.vb: StringExtensions.TryParseNumber(Of TNum)(String, NumberStyles, TNum)
+  fullName.vb: FireBlade.CsTools.StringExtensions.TryParseNumber(Of TNum)(String, System.Globalization.NumberStyles, TNum)
+  name.vb: TryParseNumber(Of TNum)(String, NumberStyles, TNum)
+- uid: FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,System.IFormatProvider,System.Globalization.NumberStyles,``0@)
+  commentId: M:FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,System.IFormatProvider,System.Globalization.NumberStyles,``0@)
+  id: TryParseNumber``1(System.String,System.IFormatProvider,System.Globalization.NumberStyles,``0@)
+  isExtensionMethod: true
+  parent: FireBlade.CsTools.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParseNumber<TNum>(string, IFormatProvider, NumberStyles, out TNum)
+  nameWithType: StringExtensions.TryParseNumber<TNum>(string, IFormatProvider, NumberStyles, out TNum)
+  fullName: FireBlade.CsTools.StringExtensions.TryParseNumber<TNum>(string, System.IFormatProvider, System.Globalization.NumberStyles, out TNum)
+  type: Method
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: TryParseNumber
+    path: ../CsTools/StringExtensions.cs
+    startLine: 81
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Tries to parse the string into a number.
+  example: []
+  syntax:
+    content: 'public static bool TryParseNumber<TNum>(this string s, IFormatProvider provider, NumberStyles style, out TNum result) where TNum : INumber<TNum>'
+    parameters:
+    - id: s
+      type: System.String
+      description: The string to try to parse.
+    - id: provider
+      type: System.IFormatProvider
+      description: An object that contains culture-specific formatting information.
+    - id: style
+      type: System.Globalization.NumberStyles
+      description: A bitwise combination of styles present in the string.
+    - id: result
+      type: '{TNum}'
+      description: The result, if successful.
+    typeParameters:
+    - id: TNum
+      description: The number type.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the conversion succeeded; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Shared Function TryParseNumber(Of TNum As INumber(Of TNum))(s As String, provider As IFormatProvider, style As NumberStyles, result As TNum) As Boolean
+  overload: FireBlade.CsTools.StringExtensions.TryParseNumber*
+  nameWithType.vb: StringExtensions.TryParseNumber(Of TNum)(String, IFormatProvider, NumberStyles, TNum)
+  fullName.vb: FireBlade.CsTools.StringExtensions.TryParseNumber(Of TNum)(String, System.IFormatProvider, System.Globalization.NumberStyles, TNum)
+  name.vb: TryParseNumber(Of TNum)(String, IFormatProvider, NumberStyles, TNum)
+- uid: FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String)
+  commentId: M:FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String)
+  id: ParseNumber``1(System.String)
+  isExtensionMethod: true
+  parent: FireBlade.CsTools.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: ParseNumber<TNum>(string)
+  nameWithType: StringExtensions.ParseNumber<TNum>(string)
+  fullName: FireBlade.CsTools.StringExtensions.ParseNumber<TNum>(string)
+  type: Method
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: ParseNumber
+    path: ../CsTools/StringExtensions.cs
+    startLine: 90
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Parses the string into a number.
+  example: []
+  syntax:
+    content: 'public static TNum ParseNumber<TNum>(this string s) where TNum : INumber<TNum>'
+    parameters:
+    - id: s
+      type: System.String
+      description: The string to parse.
+    typeParameters:
+    - id: TNum
+      description: The number type.
+    return:
+      type: '{TNum}'
+      description: The string <code class="paramref">s</code>, converted to a <code class="typeparamref">TNum</code>.
+    content.vb: Public Shared Function ParseNumber(Of TNum As INumber(Of TNum))(s As String) As TNum
+  overload: FireBlade.CsTools.StringExtensions.ParseNumber*
+  nameWithType.vb: StringExtensions.ParseNumber(Of TNum)(String)
+  fullName.vb: FireBlade.CsTools.StringExtensions.ParseNumber(Of TNum)(String)
+  name.vb: ParseNumber(Of TNum)(String)
+- uid: FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String,System.IFormatProvider)
+  commentId: M:FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String,System.IFormatProvider)
+  id: ParseNumber``1(System.String,System.IFormatProvider)
+  isExtensionMethod: true
+  parent: FireBlade.CsTools.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: ParseNumber<TNum>(string, IFormatProvider)
+  nameWithType: StringExtensions.ParseNumber<TNum>(string, IFormatProvider)
+  fullName: FireBlade.CsTools.StringExtensions.ParseNumber<TNum>(string, System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: ParseNumber
+    path: ../CsTools/StringExtensions.cs
+    startLine: 98
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Parses the string into a number.
+  example: []
+  syntax:
+    content: 'public static TNum ParseNumber<TNum>(this string s, IFormatProvider provider) where TNum : INumber<TNum>'
+    parameters:
+    - id: s
+      type: System.String
+      description: The string to parse.
+    - id: provider
+      type: System.IFormatProvider
+      description: An object that provides culture-specific formatting information.
+    typeParameters:
+    - id: TNum
+      description: The number type.
+    return:
+      type: '{TNum}'
+      description: The string <code class="paramref">s</code>, converted to a <code class="typeparamref">TNum</code>.
+    content.vb: Public Shared Function ParseNumber(Of TNum As INumber(Of TNum))(s As String, provider As IFormatProvider) As TNum
+  overload: FireBlade.CsTools.StringExtensions.ParseNumber*
+  nameWithType.vb: StringExtensions.ParseNumber(Of TNum)(String, IFormatProvider)
+  fullName.vb: FireBlade.CsTools.StringExtensions.ParseNumber(Of TNum)(String, System.IFormatProvider)
+  name.vb: ParseNumber(Of TNum)(String, IFormatProvider)
+- uid: FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String,System.Globalization.NumberStyles)
+  commentId: M:FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String,System.Globalization.NumberStyles)
+  id: ParseNumber``1(System.String,System.Globalization.NumberStyles)
+  isExtensionMethod: true
+  parent: FireBlade.CsTools.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: ParseNumber<TNum>(string, NumberStyles)
+  nameWithType: StringExtensions.ParseNumber<TNum>(string, NumberStyles)
+  fullName: FireBlade.CsTools.StringExtensions.ParseNumber<TNum>(string, System.Globalization.NumberStyles)
+  type: Method
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: ParseNumber
+    path: ../CsTools/StringExtensions.cs
+    startLine: 106
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Parses the string into a number.
+  example: []
+  syntax:
+    content: 'public static TNum ParseNumber<TNum>(this string s, NumberStyles style) where TNum : INumber<TNum>'
+    parameters:
+    - id: s
+      type: System.String
+      description: The string to parse.
+    - id: style
+      type: System.Globalization.NumberStyles
+      description: A bitwise combination of styles present in the string.
+    typeParameters:
+    - id: TNum
+      description: The number type.
+    return:
+      type: '{TNum}'
+      description: The string <code class="paramref">s</code>, converted to a <code class="typeparamref">TNum</code>.
+    content.vb: Public Shared Function ParseNumber(Of TNum As INumber(Of TNum))(s As String, style As NumberStyles) As TNum
+  overload: FireBlade.CsTools.StringExtensions.ParseNumber*
+  nameWithType.vb: StringExtensions.ParseNumber(Of TNum)(String, NumberStyles)
+  fullName.vb: FireBlade.CsTools.StringExtensions.ParseNumber(Of TNum)(String, System.Globalization.NumberStyles)
+  name.vb: ParseNumber(Of TNum)(String, NumberStyles)
+- uid: FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
+  commentId: M:FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
+  id: ParseNumber``1(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
+  isExtensionMethod: true
+  parent: FireBlade.CsTools.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: ParseNumber<TNum>(string, NumberStyles, IFormatProvider)
+  nameWithType: StringExtensions.ParseNumber<TNum>(string, NumberStyles, IFormatProvider)
+  fullName: FireBlade.CsTools.StringExtensions.ParseNumber<TNum>(string, System.Globalization.NumberStyles, System.IFormatProvider)
+  type: Method
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: ParseNumber
+    path: ../CsTools/StringExtensions.cs
+    startLine: 115
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Parses the string into a number.
+  example: []
+  syntax:
+    content: 'public static TNum ParseNumber<TNum>(this string s, NumberStyles style, IFormatProvider provider) where TNum : INumber<TNum>'
+    parameters:
+    - id: s
+      type: System.String
+      description: The string to parse.
+    - id: style
+      type: System.Globalization.NumberStyles
+      description: A bitwise combination of styles present in the string.
+    - id: provider
+      type: System.IFormatProvider
+      description: An object that provides culture-specific formatting information.
+    typeParameters:
+    - id: TNum
+      description: The number type.
+    return:
+      type: '{TNum}'
+      description: The string <code class="paramref">s</code>, converted to a <code class="typeparamref">TNum</code>.
+    content.vb: Public Shared Function ParseNumber(Of TNum As INumber(Of TNum))(s As String, style As NumberStyles, provider As IFormatProvider) As TNum
+  overload: FireBlade.CsTools.StringExtensions.ParseNumber*
+  nameWithType.vb: StringExtensions.ParseNumber(Of TNum)(String, NumberStyles, IFormatProvider)
+  fullName.vb: FireBlade.CsTools.StringExtensions.ParseNumber(Of TNum)(String, System.Globalization.NumberStyles, System.IFormatProvider)
+  name.vb: ParseNumber(Of TNum)(String, NumberStyles, IFormatProvider)
+- uid: FireBlade.CsTools.StringExtensions.GetString(System.Collections.Generic.IEnumerable{System.Char})
+  commentId: M:FireBlade.CsTools.StringExtensions.GetString(System.Collections.Generic.IEnumerable{System.Char})
+  id: GetString(System.Collections.Generic.IEnumerable{System.Char})
+  isExtensionMethod: true
+  parent: FireBlade.CsTools.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetString(IEnumerable<char>)
+  nameWithType: StringExtensions.GetString(IEnumerable<char>)
+  fullName: FireBlade.CsTools.StringExtensions.GetString(System.Collections.Generic.IEnumerable<char>)
+  type: Method
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: GetString
+    path: ../CsTools/StringExtensions.cs
+    startLine: 122
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Creates a <xref href="System.String" data-throw-if-not-resolved="false"></xref> from a <xref href="System.Char" data-throw-if-not-resolved="false"></xref> collection.
+  example: []
+  syntax:
+    content: public static string GetString(this IEnumerable<char> chars)
+    parameters:
+    - id: chars
+      type: System.Collections.Generic.IEnumerable{System.Char}
+      description: The characters to convert.
+    return:
+      type: System.String
+      description: The collection <code class="paramref">chars</code>, converted to a <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function GetString(chars As IEnumerable(Of Char)) As String
+  overload: FireBlade.CsTools.StringExtensions.GetString*
+  nameWithType.vb: StringExtensions.GetString(IEnumerable(Of Char))
+  fullName.vb: FireBlade.CsTools.StringExtensions.GetString(System.Collections.Generic.IEnumerable(Of Char))
+  name.vb: GetString(IEnumerable(Of Char))
+- uid: FireBlade.CsTools.StringExtensions.GetCasing(System.String)
+  commentId: M:FireBlade.CsTools.StringExtensions.GetCasing(System.String)
+  id: GetCasing(System.String)
+  isExtensionMethod: true
+  parent: FireBlade.CsTools.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetCasing(string)
+  nameWithType: StringExtensions.GetCasing(string)
+  fullName: FireBlade.CsTools.StringExtensions.GetCasing(string)
+  type: Method
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: GetCasing
+    path: ../CsTools/StringExtensions.cs
+    startLine: 129
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Gets the casing of a string.
+  example: []
+  syntax:
+    content: public static StringCasing GetCasing(this string s)
+    parameters:
+    - id: s
+      type: System.String
+      description: The string to check.
+    return:
+      type: FireBlade.CsTools.StringCasing
+      description: The casing of the string, or <xref href="FireBlade.CsTools.StringCasing.Other" data-throw-if-not-resolved="false"></xref> if a match wasn't found.
+    content.vb: Public Shared Function GetCasing(s As String) As StringCasing
+  overload: FireBlade.CsTools.StringExtensions.GetCasing*
+  nameWithType.vb: StringExtensions.GetCasing(String)
+  fullName.vb: FireBlade.CsTools.StringExtensions.GetCasing(String)
+  name.vb: GetCasing(String)
+- uid: FireBlade.CsTools.StringExtensions.SetCasing(System.String,FireBlade.CsTools.StringCasing)
+  commentId: M:FireBlade.CsTools.StringExtensions.SetCasing(System.String,FireBlade.CsTools.StringCasing)
+  id: SetCasing(System.String,FireBlade.CsTools.StringCasing)
+  isExtensionMethod: true
+  parent: FireBlade.CsTools.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetCasing(string, StringCasing)
+  nameWithType: StringExtensions.SetCasing(string, StringCasing)
+  fullName: FireBlade.CsTools.StringExtensions.SetCasing(string, FireBlade.CsTools.StringCasing)
+  type: Method
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: SetCasing
+    path: ../CsTools/StringExtensions.cs
+    startLine: 250
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Sets the casing of the string.
+  example: []
+  syntax:
+    content: public static string SetCasing(this string s, StringCasing targetCasing)
+    parameters:
+    - id: s
+      type: System.String
+      description: The string to change.
+    - id: targetCasing
+      type: FireBlade.CsTools.StringCasing
+      description: The new casing.
+    return:
+      type: System.String
+      description: The string <code class="paramref">s</code>, converted to the casing specified in <code class="paramref">targetCasing</code>.
+    content.vb: Public Shared Function SetCasing(s As String, targetCasing As StringCasing) As String
+  overload: FireBlade.CsTools.StringExtensions.SetCasing*
+  nameWithType.vb: StringExtensions.SetCasing(String, StringCasing)
+  fullName.vb: FireBlade.CsTools.StringExtensions.SetCasing(String, FireBlade.CsTools.StringCasing)
+  name.vb: SetCasing(String, StringCasing)
+- uid: FireBlade.CsTools.StringExtensions.IsPalindrome(System.String)
+  commentId: M:FireBlade.CsTools.StringExtensions.IsPalindrome(System.String)
+  id: IsPalindrome(System.String)
+  isExtensionMethod: true
+  parent: FireBlade.CsTools.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsPalindrome(string)
+  nameWithType: StringExtensions.IsPalindrome(string)
+  fullName: FireBlade.CsTools.StringExtensions.IsPalindrome(string)
+  type: Method
+  source:
+    remote:
+      path: CsTools/StringExtensions.cs
+      branch: main
+      repo: https://github.com/FireBlade211/CsTools.git
+    id: IsPalindrome
+    path: ../CsTools/StringExtensions.cs
+    startLine: 305
+  assemblies:
+  - CsTools
+  namespace: FireBlade.CsTools
+  summary: Determines whether the string reads the same forwards and backwards.
+  example: []
+  syntax:
+    content: public static bool IsPalindrome(this string s)
+    parameters:
+    - id: s
+      type: System.String
+      description: The string to check.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the string reads the same backwards; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Shared Function IsPalindrome(s As String) As Boolean
+  overload: FireBlade.CsTools.StringExtensions.IsPalindrome*
+  nameWithType.vb: StringExtensions.IsPalindrome(String)
+  fullName.vb: FireBlade.CsTools.StringExtensions.IsPalindrome(String)
+  name.vb: IsPalindrome(String)
+references:
+- uid: FireBlade.CsTools
+  commentId: N:FireBlade.CsTools
+  href: FireBlade.html
+  name: FireBlade.CsTools
+  nameWithType: FireBlade.CsTools
+  fullName: FireBlade.CsTools
+  spec.csharp:
+  - uid: FireBlade
+    name: FireBlade
+    href: FireBlade.html
+  - name: .
+  - uid: FireBlade.CsTools
+    name: CsTools
+    href: FireBlade.CsTools.html
+  spec.vb:
+  - uid: FireBlade
+    name: FireBlade
+    href: FireBlade.html
+  - name: .
+  - uid: FireBlade.CsTools
+    name: CsTools
+    href: FireBlade.CsTools.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String.Empty
+  commentId: F:System.String.Empty
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string.empty
+  name: Empty
+  nameWithType: string.Empty
+  fullName: string.Empty
+  nameWithType.vb: String.Empty
+  fullName.vb: String.Empty
+- uid: FireBlade.CsTools.StringExtensions.IsNullOrEmpty*
+  commentId: Overload:FireBlade.CsTools.StringExtensions.IsNullOrEmpty
+  href: FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_IsNullOrEmpty_System_String_
+  name: IsNullOrEmpty
+  nameWithType: StringExtensions.IsNullOrEmpty
+  fullName: FireBlade.CsTools.StringExtensions.IsNullOrEmpty
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: FireBlade.CsTools.StringExtensions.IsNullOrWhiteSpace*
+  commentId: Overload:FireBlade.CsTools.StringExtensions.IsNullOrWhiteSpace
+  href: FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_IsNullOrWhiteSpace_System_String_
+  name: IsNullOrWhiteSpace
+  nameWithType: StringExtensions.IsNullOrWhiteSpace
+  fullName: FireBlade.CsTools.StringExtensions.IsNullOrWhiteSpace
+- uid: FireBlade.CsTools.StringExtensions.IsNotNullOrEmpty*
+  commentId: Overload:FireBlade.CsTools.StringExtensions.IsNotNullOrEmpty
+  href: FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_IsNotNullOrEmpty_System_String_
+  name: IsNotNullOrEmpty
+  nameWithType: StringExtensions.IsNotNullOrEmpty
+  fullName: FireBlade.CsTools.StringExtensions.IsNotNullOrEmpty
+- uid: FireBlade.CsTools.StringExtensions.IsNotNullOrWhiteSpace*
+  commentId: Overload:FireBlade.CsTools.StringExtensions.IsNotNullOrWhiteSpace
+  href: FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_IsNotNullOrWhiteSpace_System_String_
+  name: IsNotNullOrWhiteSpace
+  nameWithType: StringExtensions.IsNotNullOrWhiteSpace
+  fullName: FireBlade.CsTools.StringExtensions.IsNotNullOrWhiteSpace
+- uid: FireBlade.CsTools.StringExtensions.TryParseNumber*
+  commentId: Overload:FireBlade.CsTools.StringExtensions.TryParseNumber
+  href: FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_TryParseNumber__1_System_String___0__
+  name: TryParseNumber
+  nameWithType: StringExtensions.TryParseNumber
+  fullName: FireBlade.CsTools.StringExtensions.TryParseNumber
+- uid: '{TNum}'
+  commentId: '!:TNum'
+  definition: TNum
+  name: TNum
+  nameWithType: TNum
+  fullName: TNum
+- uid: TNum
+  name: TNum
+  nameWithType: TNum
+  fullName: TNum
+- uid: System.IFormatProvider
+  commentId: T:System.IFormatProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iformatprovider
+  name: IFormatProvider
+  nameWithType: IFormatProvider
+  fullName: System.IFormatProvider
+- uid: System.Globalization.NumberStyles
+  commentId: T:System.Globalization.NumberStyles
+  parent: System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.numberstyles
+  name: NumberStyles
+  nameWithType: NumberStyles
+  fullName: System.Globalization.NumberStyles
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+- uid: FireBlade.CsTools.StringExtensions.ParseNumber*
+  commentId: Overload:FireBlade.CsTools.StringExtensions.ParseNumber
+  href: FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_ParseNumber__1_System_String_
+  name: ParseNumber
+  nameWithType: StringExtensions.ParseNumber
+  fullName: FireBlade.CsTools.StringExtensions.ParseNumber
+- uid: System.Char
+  commentId: T:System.Char
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: FireBlade.CsTools.StringExtensions.GetString*
+  commentId: Overload:FireBlade.CsTools.StringExtensions.GetString
+  href: FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_GetString_System_Collections_Generic_IEnumerable_System_Char__
+  name: GetString
+  nameWithType: StringExtensions.GetString
+  fullName: FireBlade.CsTools.StringExtensions.GetString
+- uid: System.Collections.Generic.IEnumerable{System.Char}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Char}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<char>
+  nameWithType: IEnumerable<char>
+  fullName: System.Collections.Generic.IEnumerable<char>
+  nameWithType.vb: IEnumerable(Of Char)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Char)
+  name.vb: IEnumerable(Of Char)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: FireBlade.CsTools.StringCasing.Other
+  commentId: F:FireBlade.CsTools.StringCasing.Other
+  href: FireBlade.CsTools.StringCasing.html#FireBlade_CsTools_StringCasing_Other
+  name: Other
+  nameWithType: StringCasing.Other
+  fullName: FireBlade.CsTools.StringCasing.Other
+- uid: FireBlade.CsTools.StringExtensions.GetCasing*
+  commentId: Overload:FireBlade.CsTools.StringExtensions.GetCasing
+  href: FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_GetCasing_System_String_
+  name: GetCasing
+  nameWithType: StringExtensions.GetCasing
+  fullName: FireBlade.CsTools.StringExtensions.GetCasing
+- uid: FireBlade.CsTools.StringCasing
+  commentId: T:FireBlade.CsTools.StringCasing
+  parent: FireBlade.CsTools
+  href: FireBlade.CsTools.StringCasing.html
+  name: StringCasing
+  nameWithType: StringCasing
+  fullName: FireBlade.CsTools.StringCasing
+- uid: FireBlade.CsTools.StringExtensions.SetCasing*
+  commentId: Overload:FireBlade.CsTools.StringExtensions.SetCasing
+  href: FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_SetCasing_System_String_FireBlade_CsTools_StringCasing_
+  name: SetCasing
+  nameWithType: StringExtensions.SetCasing
+  fullName: FireBlade.CsTools.StringExtensions.SetCasing
+- uid: FireBlade.CsTools.StringExtensions.IsPalindrome*
+  commentId: Overload:FireBlade.CsTools.StringExtensions.IsPalindrome
+  href: FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_IsPalindrome_System_String_
+  name: IsPalindrome
+  nameWithType: StringExtensions.IsPalindrome
+  fullName: FireBlade.CsTools.StringExtensions.IsPalindrome

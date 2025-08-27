@@ -1,0 +1,540 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: FireBlade.CsTools
+  name: FireBlade.CsTools
+  href: api/FireBlade.CsTools.html
+  commentId: N:FireBlade.CsTools
+  fullName: FireBlade.CsTools
+  nameWithType: FireBlade.CsTools
+- uid: FireBlade.CsTools.Numbers
+  name: FireBlade.CsTools.Numbers
+  href: api/FireBlade.CsTools.Numbers.html
+  commentId: N:FireBlade.CsTools.Numbers
+  fullName: FireBlade.CsTools.Numbers
+  nameWithType: FireBlade.CsTools.Numbers
+- uid: FireBlade.CsTools.Numbers.MathTools
+  name: MathTools
+  href: api/FireBlade.CsTools.Numbers.MathTools.html
+  commentId: T:FireBlade.CsTools.Numbers.MathTools
+  fullName: FireBlade.CsTools.Numbers.MathTools
+  nameWithType: MathTools
+- uid: FireBlade.CsTools.Numbers.MathTools.IsEven*
+  name: IsEven
+  href: api/FireBlade.CsTools.Numbers.MathTools.html#FireBlade_CsTools_Numbers_MathTools_IsEven_
+  commentId: Overload:FireBlade.CsTools.Numbers.MathTools.IsEven
+  isSpec: "True"
+  fullName: FireBlade.CsTools.Numbers.MathTools.IsEven
+  nameWithType: MathTools.IsEven
+- uid: FireBlade.CsTools.Numbers.MathTools.IsEven``1(``0)
+  name: IsEven<TNum>(TNum)
+  href: api/FireBlade.CsTools.Numbers.MathTools.html#FireBlade_CsTools_Numbers_MathTools_IsEven__1___0_
+  commentId: M:FireBlade.CsTools.Numbers.MathTools.IsEven``1(``0)
+  name.vb: IsEven(Of TNum)(TNum)
+  fullName: FireBlade.CsTools.Numbers.MathTools.IsEven<TNum>(TNum)
+  fullName.vb: FireBlade.CsTools.Numbers.MathTools.IsEven(Of TNum)(TNum)
+  nameWithType: MathTools.IsEven<TNum>(TNum)
+  nameWithType.vb: MathTools.IsEven(Of TNum)(TNum)
+- uid: FireBlade.CsTools.Numbers.MathTools.IsOdd*
+  name: IsOdd
+  href: api/FireBlade.CsTools.Numbers.MathTools.html#FireBlade_CsTools_Numbers_MathTools_IsOdd_
+  commentId: Overload:FireBlade.CsTools.Numbers.MathTools.IsOdd
+  isSpec: "True"
+  fullName: FireBlade.CsTools.Numbers.MathTools.IsOdd
+  nameWithType: MathTools.IsOdd
+- uid: FireBlade.CsTools.Numbers.MathTools.IsOdd``1(``0)
+  name: IsOdd<TNum>(TNum)
+  href: api/FireBlade.CsTools.Numbers.MathTools.html#FireBlade_CsTools_Numbers_MathTools_IsOdd__1___0_
+  commentId: M:FireBlade.CsTools.Numbers.MathTools.IsOdd``1(``0)
+  name.vb: IsOdd(Of TNum)(TNum)
+  fullName: FireBlade.CsTools.Numbers.MathTools.IsOdd<TNum>(TNum)
+  fullName.vb: FireBlade.CsTools.Numbers.MathTools.IsOdd(Of TNum)(TNum)
+  nameWithType: MathTools.IsOdd<TNum>(TNum)
+  nameWithType.vb: MathTools.IsOdd(Of TNum)(TNum)
+- uid: FireBlade.CsTools.Numbers.MathTools.Map*
+  name: Map
+  href: api/FireBlade.CsTools.Numbers.MathTools.html#FireBlade_CsTools_Numbers_MathTools_Map_
+  commentId: Overload:FireBlade.CsTools.Numbers.MathTools.Map
+  isSpec: "True"
+  fullName: FireBlade.CsTools.Numbers.MathTools.Map
+  nameWithType: MathTools.Map
+- uid: FireBlade.CsTools.Numbers.MathTools.Map``1(``0,FireBlade.CsTools.Numbers.Range{``0},FireBlade.CsTools.Numbers.Range{``0})
+  name: Map<TNum>(TNum, Range<TNum>, Range<TNum>)
+  href: api/FireBlade.CsTools.Numbers.MathTools.html#FireBlade_CsTools_Numbers_MathTools_Map__1___0_FireBlade_CsTools_Numbers_Range___0__FireBlade_CsTools_Numbers_Range___0__
+  commentId: M:FireBlade.CsTools.Numbers.MathTools.Map``1(``0,FireBlade.CsTools.Numbers.Range{``0},FireBlade.CsTools.Numbers.Range{``0})
+  name.vb: Map(Of TNum)(TNum, Range(Of TNum), Range(Of TNum))
+  fullName: FireBlade.CsTools.Numbers.MathTools.Map<TNum>(TNum, FireBlade.CsTools.Numbers.Range<TNum>, FireBlade.CsTools.Numbers.Range<TNum>)
+  fullName.vb: FireBlade.CsTools.Numbers.MathTools.Map(Of TNum)(TNum, FireBlade.CsTools.Numbers.Range(Of TNum), FireBlade.CsTools.Numbers.Range(Of TNum))
+  nameWithType: MathTools.Map<TNum>(TNum, Range<TNum>, Range<TNum>)
+  nameWithType.vb: MathTools.Map(Of TNum)(TNum, Range(Of TNum), Range(Of TNum))
+- uid: FireBlade.CsTools.Numbers.MathTools.Mod*
+  name: Mod
+  href: api/FireBlade.CsTools.Numbers.MathTools.html#FireBlade_CsTools_Numbers_MathTools_Mod_
+  commentId: Overload:FireBlade.CsTools.Numbers.MathTools.Mod
+  isSpec: "True"
+  fullName: FireBlade.CsTools.Numbers.MathTools.Mod
+  nameWithType: MathTools.Mod
+- uid: FireBlade.CsTools.Numbers.MathTools.Mod``1(``0,``0)
+  name: Mod<TNum>(TNum, TNum)
+  href: api/FireBlade.CsTools.Numbers.MathTools.html#FireBlade_CsTools_Numbers_MathTools_Mod__1___0___0_
+  commentId: M:FireBlade.CsTools.Numbers.MathTools.Mod``1(``0,``0)
+  name.vb: Mod(Of TNum)(TNum, TNum)
+  fullName: FireBlade.CsTools.Numbers.MathTools.Mod<TNum>(TNum, TNum)
+  fullName.vb: FireBlade.CsTools.Numbers.MathTools.Mod(Of TNum)(TNum, TNum)
+  nameWithType: MathTools.Mod<TNum>(TNum, TNum)
+  nameWithType.vb: MathTools.Mod(Of TNum)(TNum, TNum)
+- uid: FireBlade.CsTools.Numbers.NumberExtensions
+  name: NumberExtensions
+  href: api/FireBlade.CsTools.Numbers.NumberExtensions.html
+  commentId: T:FireBlade.CsTools.Numbers.NumberExtensions
+  fullName: FireBlade.CsTools.Numbers.NumberExtensions
+  nameWithType: NumberExtensions
+- uid: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange*
+  name: IsInRange
+  href: api/FireBlade.CsTools.Numbers.NumberExtensions.html#FireBlade_CsTools_Numbers_NumberExtensions_IsInRange_
+  commentId: Overload:FireBlade.CsTools.Numbers.NumberExtensions.IsInRange
+  isSpec: "True"
+  fullName: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange
+  nameWithType: NumberExtensions.IsInRange
+- uid: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange``1(``0,FireBlade.CsTools.Numbers.Range{``0})
+  name: IsInRange<TNum>(TNum, Range<TNum>)
+  href: api/FireBlade.CsTools.Numbers.NumberExtensions.html#FireBlade_CsTools_Numbers_NumberExtensions_IsInRange__1___0_FireBlade_CsTools_Numbers_Range___0__
+  commentId: M:FireBlade.CsTools.Numbers.NumberExtensions.IsInRange``1(``0,FireBlade.CsTools.Numbers.Range{``0})
+  name.vb: IsInRange(Of TNum)(TNum, Range(Of TNum))
+  fullName: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange<TNum>(TNum, FireBlade.CsTools.Numbers.Range<TNum>)
+  fullName.vb: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange(Of TNum)(TNum, FireBlade.CsTools.Numbers.Range(Of TNum))
+  nameWithType: NumberExtensions.IsInRange<TNum>(TNum, Range<TNum>)
+  nameWithType.vb: NumberExtensions.IsInRange(Of TNum)(TNum, Range(Of TNum))
+- uid: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange``1(``0,System.Decimal,System.Decimal)
+  name: IsInRange<TNum>(TNum, decimal, decimal)
+  href: api/FireBlade.CsTools.Numbers.NumberExtensions.html#FireBlade_CsTools_Numbers_NumberExtensions_IsInRange__1___0_System_Decimal_System_Decimal_
+  commentId: M:FireBlade.CsTools.Numbers.NumberExtensions.IsInRange``1(``0,System.Decimal,System.Decimal)
+  name.vb: IsInRange(Of TNum)(TNum, Decimal, Decimal)
+  fullName: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange<TNum>(TNum, decimal, decimal)
+  fullName.vb: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange(Of TNum)(TNum, Decimal, Decimal)
+  nameWithType: NumberExtensions.IsInRange<TNum>(TNum, decimal, decimal)
+  nameWithType.vb: NumberExtensions.IsInRange(Of TNum)(TNum, Decimal, Decimal)
+- uid: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange``1(``0,System.Double,System.Double)
+  name: IsInRange<TNum>(TNum, double, double)
+  href: api/FireBlade.CsTools.Numbers.NumberExtensions.html#FireBlade_CsTools_Numbers_NumberExtensions_IsInRange__1___0_System_Double_System_Double_
+  commentId: M:FireBlade.CsTools.Numbers.NumberExtensions.IsInRange``1(``0,System.Double,System.Double)
+  name.vb: IsInRange(Of TNum)(TNum, Double, Double)
+  fullName: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange<TNum>(TNum, double, double)
+  fullName.vb: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange(Of TNum)(TNum, Double, Double)
+  nameWithType: NumberExtensions.IsInRange<TNum>(TNum, double, double)
+  nameWithType.vb: NumberExtensions.IsInRange(Of TNum)(TNum, Double, Double)
+- uid: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange``1(``0,System.Int32,System.Int32)
+  name: IsInRange<TNum>(TNum, int, int)
+  href: api/FireBlade.CsTools.Numbers.NumberExtensions.html#FireBlade_CsTools_Numbers_NumberExtensions_IsInRange__1___0_System_Int32_System_Int32_
+  commentId: M:FireBlade.CsTools.Numbers.NumberExtensions.IsInRange``1(``0,System.Int32,System.Int32)
+  name.vb: IsInRange(Of TNum)(TNum, Integer, Integer)
+  fullName: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange<TNum>(TNum, int, int)
+  fullName.vb: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange(Of TNum)(TNum, Integer, Integer)
+  nameWithType: NumberExtensions.IsInRange<TNum>(TNum, int, int)
+  nameWithType.vb: NumberExtensions.IsInRange(Of TNum)(TNum, Integer, Integer)
+- uid: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange``1(``0,System.Single,System.Single)
+  name: IsInRange<TNum>(TNum, float, float)
+  href: api/FireBlade.CsTools.Numbers.NumberExtensions.html#FireBlade_CsTools_Numbers_NumberExtensions_IsInRange__1___0_System_Single_System_Single_
+  commentId: M:FireBlade.CsTools.Numbers.NumberExtensions.IsInRange``1(``0,System.Single,System.Single)
+  name.vb: IsInRange(Of TNum)(TNum, Single, Single)
+  fullName: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange<TNum>(TNum, float, float)
+  fullName.vb: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange(Of TNum)(TNum, Single, Single)
+  nameWithType: NumberExtensions.IsInRange<TNum>(TNum, float, float)
+  nameWithType.vb: NumberExtensions.IsInRange(Of TNum)(TNum, Single, Single)
+- uid: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange``1(``0,``0,``0)
+  name: IsInRange<TNum>(TNum, TNum, TNum)
+  href: api/FireBlade.CsTools.Numbers.NumberExtensions.html#FireBlade_CsTools_Numbers_NumberExtensions_IsInRange__1___0___0___0_
+  commentId: M:FireBlade.CsTools.Numbers.NumberExtensions.IsInRange``1(``0,``0,``0)
+  name.vb: IsInRange(Of TNum)(TNum, TNum, TNum)
+  fullName: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange<TNum>(TNum, TNum, TNum)
+  fullName.vb: FireBlade.CsTools.Numbers.NumberExtensions.IsInRange(Of TNum)(TNum, TNum, TNum)
+  nameWithType: NumberExtensions.IsInRange<TNum>(TNum, TNum, TNum)
+  nameWithType.vb: NumberExtensions.IsInRange(Of TNum)(TNum, TNum, TNum)
+- uid: FireBlade.CsTools.Numbers.Range`1
+  name: Range<TNum>
+  href: api/FireBlade.CsTools.Numbers.Range-1.html
+  commentId: T:FireBlade.CsTools.Numbers.Range`1
+  name.vb: Range(Of TNum)
+  fullName: FireBlade.CsTools.Numbers.Range<TNum>
+  fullName.vb: FireBlade.CsTools.Numbers.Range(Of TNum)
+  nameWithType: Range<TNum>
+  nameWithType.vb: Range(Of TNum)
+- uid: FireBlade.CsTools.Numbers.Range`1.#ctor(`0,`0)
+  name: Range(TNum, TNum)
+  href: api/FireBlade.CsTools.Numbers.Range-1.html#FireBlade_CsTools_Numbers_Range_1__ctor__0__0_
+  commentId: M:FireBlade.CsTools.Numbers.Range`1.#ctor(`0,`0)
+  name.vb: New(TNum, TNum)
+  fullName: FireBlade.CsTools.Numbers.Range<TNum>.Range(TNum, TNum)
+  fullName.vb: FireBlade.CsTools.Numbers.Range(Of TNum).New(TNum, TNum)
+  nameWithType: Range<TNum>.Range(TNum, TNum)
+  nameWithType.vb: Range(Of TNum).New(TNum, TNum)
+- uid: FireBlade.CsTools.Numbers.Range`1.#ctor*
+  name: Range
+  href: api/FireBlade.CsTools.Numbers.Range-1.html#FireBlade_CsTools_Numbers_Range_1__ctor_
+  commentId: Overload:FireBlade.CsTools.Numbers.Range`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: FireBlade.CsTools.Numbers.Range<TNum>.Range
+  fullName.vb: FireBlade.CsTools.Numbers.Range(Of TNum).New
+  nameWithType: Range<TNum>.Range
+  nameWithType.vb: Range(Of TNum).New
+- uid: FireBlade.CsTools.Numbers.Range`1.IsInRange(`0)
+  name: IsInRange(TNum)
+  href: api/FireBlade.CsTools.Numbers.Range-1.html#FireBlade_CsTools_Numbers_Range_1_IsInRange__0_
+  commentId: M:FireBlade.CsTools.Numbers.Range`1.IsInRange(`0)
+  fullName: FireBlade.CsTools.Numbers.Range<TNum>.IsInRange(TNum)
+  fullName.vb: FireBlade.CsTools.Numbers.Range(Of TNum).IsInRange(TNum)
+  nameWithType: Range<TNum>.IsInRange(TNum)
+  nameWithType.vb: Range(Of TNum).IsInRange(TNum)
+- uid: FireBlade.CsTools.Numbers.Range`1.IsInRange*
+  name: IsInRange
+  href: api/FireBlade.CsTools.Numbers.Range-1.html#FireBlade_CsTools_Numbers_Range_1_IsInRange_
+  commentId: Overload:FireBlade.CsTools.Numbers.Range`1.IsInRange
+  isSpec: "True"
+  fullName: FireBlade.CsTools.Numbers.Range<TNum>.IsInRange
+  fullName.vb: FireBlade.CsTools.Numbers.Range(Of TNum).IsInRange
+  nameWithType: Range<TNum>.IsInRange
+  nameWithType.vb: Range(Of TNum).IsInRange
+- uid: FireBlade.CsTools.Numbers.Range`1.Length
+  name: Length
+  href: api/FireBlade.CsTools.Numbers.Range-1.html#FireBlade_CsTools_Numbers_Range_1_Length
+  commentId: P:FireBlade.CsTools.Numbers.Range`1.Length
+  fullName: FireBlade.CsTools.Numbers.Range<TNum>.Length
+  fullName.vb: FireBlade.CsTools.Numbers.Range(Of TNum).Length
+  nameWithType: Range<TNum>.Length
+  nameWithType.vb: Range(Of TNum).Length
+- uid: FireBlade.CsTools.Numbers.Range`1.Length*
+  name: Length
+  href: api/FireBlade.CsTools.Numbers.Range-1.html#FireBlade_CsTools_Numbers_Range_1_Length_
+  commentId: Overload:FireBlade.CsTools.Numbers.Range`1.Length
+  isSpec: "True"
+  fullName: FireBlade.CsTools.Numbers.Range<TNum>.Length
+  fullName.vb: FireBlade.CsTools.Numbers.Range(Of TNum).Length
+  nameWithType: Range<TNum>.Length
+  nameWithType.vb: Range(Of TNum).Length
+- uid: FireBlade.CsTools.Numbers.Range`1.Maximum
+  name: Maximum
+  href: api/FireBlade.CsTools.Numbers.Range-1.html#FireBlade_CsTools_Numbers_Range_1_Maximum
+  commentId: P:FireBlade.CsTools.Numbers.Range`1.Maximum
+  fullName: FireBlade.CsTools.Numbers.Range<TNum>.Maximum
+  fullName.vb: FireBlade.CsTools.Numbers.Range(Of TNum).Maximum
+  nameWithType: Range<TNum>.Maximum
+  nameWithType.vb: Range(Of TNum).Maximum
+- uid: FireBlade.CsTools.Numbers.Range`1.Maximum*
+  name: Maximum
+  href: api/FireBlade.CsTools.Numbers.Range-1.html#FireBlade_CsTools_Numbers_Range_1_Maximum_
+  commentId: Overload:FireBlade.CsTools.Numbers.Range`1.Maximum
+  isSpec: "True"
+  fullName: FireBlade.CsTools.Numbers.Range<TNum>.Maximum
+  fullName.vb: FireBlade.CsTools.Numbers.Range(Of TNum).Maximum
+  nameWithType: Range<TNum>.Maximum
+  nameWithType.vb: Range(Of TNum).Maximum
+- uid: FireBlade.CsTools.Numbers.Range`1.Minimum
+  name: Minimum
+  href: api/FireBlade.CsTools.Numbers.Range-1.html#FireBlade_CsTools_Numbers_Range_1_Minimum
+  commentId: P:FireBlade.CsTools.Numbers.Range`1.Minimum
+  fullName: FireBlade.CsTools.Numbers.Range<TNum>.Minimum
+  fullName.vb: FireBlade.CsTools.Numbers.Range(Of TNum).Minimum
+  nameWithType: Range<TNum>.Minimum
+  nameWithType.vb: Range(Of TNum).Minimum
+- uid: FireBlade.CsTools.Numbers.Range`1.Minimum*
+  name: Minimum
+  href: api/FireBlade.CsTools.Numbers.Range-1.html#FireBlade_CsTools_Numbers_Range_1_Minimum_
+  commentId: Overload:FireBlade.CsTools.Numbers.Range`1.Minimum
+  isSpec: "True"
+  fullName: FireBlade.CsTools.Numbers.Range<TNum>.Minimum
+  fullName.vb: FireBlade.CsTools.Numbers.Range(Of TNum).Minimum
+  nameWithType: Range<TNum>.Minimum
+  nameWithType.vb: Range(Of TNum).Minimum
+- uid: FireBlade.CsTools.StringCasing
+  name: StringCasing
+  href: api/FireBlade.CsTools.StringCasing.html
+  commentId: T:FireBlade.CsTools.StringCasing
+  fullName: FireBlade.CsTools.StringCasing
+  nameWithType: StringCasing
+- uid: FireBlade.CsTools.StringCasing.Alternating
+  name: Alternating
+  href: api/FireBlade.CsTools.StringCasing.html#FireBlade_CsTools_StringCasing_Alternating
+  commentId: F:FireBlade.CsTools.StringCasing.Alternating
+  fullName: FireBlade.CsTools.StringCasing.Alternating
+  nameWithType: StringCasing.Alternating
+- uid: FireBlade.CsTools.StringCasing.AlternatingNormal
+  name: AlternatingNormal
+  href: api/FireBlade.CsTools.StringCasing.html#FireBlade_CsTools_StringCasing_AlternatingNormal
+  commentId: F:FireBlade.CsTools.StringCasing.AlternatingNormal
+  fullName: FireBlade.CsTools.StringCasing.AlternatingNormal
+  nameWithType: StringCasing.AlternatingNormal
+- uid: FireBlade.CsTools.StringCasing.AlternatingReverse
+  name: AlternatingReverse
+  href: api/FireBlade.CsTools.StringCasing.html#FireBlade_CsTools_StringCasing_AlternatingReverse
+  commentId: F:FireBlade.CsTools.StringCasing.AlternatingReverse
+  fullName: FireBlade.CsTools.StringCasing.AlternatingReverse
+  nameWithType: StringCasing.AlternatingReverse
+- uid: FireBlade.CsTools.StringCasing.Camel
+  name: Camel
+  href: api/FireBlade.CsTools.StringCasing.html#FireBlade_CsTools_StringCasing_Camel
+  commentId: F:FireBlade.CsTools.StringCasing.Camel
+  fullName: FireBlade.CsTools.StringCasing.Camel
+  nameWithType: StringCasing.Camel
+- uid: FireBlade.CsTools.StringCasing.Inverse
+  name: Inverse
+  href: api/FireBlade.CsTools.StringCasing.html#FireBlade_CsTools_StringCasing_Inverse
+  commentId: F:FireBlade.CsTools.StringCasing.Inverse
+  fullName: FireBlade.CsTools.StringCasing.Inverse
+  nameWithType: StringCasing.Inverse
+- uid: FireBlade.CsTools.StringCasing.Lower
+  name: Lower
+  href: api/FireBlade.CsTools.StringCasing.html#FireBlade_CsTools_StringCasing_Lower
+  commentId: F:FireBlade.CsTools.StringCasing.Lower
+  fullName: FireBlade.CsTools.StringCasing.Lower
+  nameWithType: StringCasing.Lower
+- uid: FireBlade.CsTools.StringCasing.Other
+  name: Other
+  href: api/FireBlade.CsTools.StringCasing.html#FireBlade_CsTools_StringCasing_Other
+  commentId: F:FireBlade.CsTools.StringCasing.Other
+  fullName: FireBlade.CsTools.StringCasing.Other
+  nameWithType: StringCasing.Other
+- uid: FireBlade.CsTools.StringCasing.Pascal
+  name: Pascal
+  href: api/FireBlade.CsTools.StringCasing.html#FireBlade_CsTools_StringCasing_Pascal
+  commentId: F:FireBlade.CsTools.StringCasing.Pascal
+  fullName: FireBlade.CsTools.StringCasing.Pascal
+  nameWithType: StringCasing.Pascal
+- uid: FireBlade.CsTools.StringCasing.Snake
+  name: Snake
+  href: api/FireBlade.CsTools.StringCasing.html#FireBlade_CsTools_StringCasing_Snake
+  commentId: F:FireBlade.CsTools.StringCasing.Snake
+  fullName: FireBlade.CsTools.StringCasing.Snake
+  nameWithType: StringCasing.Snake
+- uid: FireBlade.CsTools.StringCasing.Title
+  name: Title
+  href: api/FireBlade.CsTools.StringCasing.html#FireBlade_CsTools_StringCasing_Title
+  commentId: F:FireBlade.CsTools.StringCasing.Title
+  fullName: FireBlade.CsTools.StringCasing.Title
+  nameWithType: StringCasing.Title
+- uid: FireBlade.CsTools.StringCasing.Upper
+  name: Upper
+  href: api/FireBlade.CsTools.StringCasing.html#FireBlade_CsTools_StringCasing_Upper
+  commentId: F:FireBlade.CsTools.StringCasing.Upper
+  fullName: FireBlade.CsTools.StringCasing.Upper
+  nameWithType: StringCasing.Upper
+- uid: FireBlade.CsTools.StringExtensions
+  name: StringExtensions
+  href: api/FireBlade.CsTools.StringExtensions.html
+  commentId: T:FireBlade.CsTools.StringExtensions
+  fullName: FireBlade.CsTools.StringExtensions
+  nameWithType: StringExtensions
+- uid: FireBlade.CsTools.StringExtensions.GetCasing(System.String)
+  name: GetCasing(string)
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_GetCasing_System_String_
+  commentId: M:FireBlade.CsTools.StringExtensions.GetCasing(System.String)
+  name.vb: GetCasing(String)
+  fullName: FireBlade.CsTools.StringExtensions.GetCasing(string)
+  fullName.vb: FireBlade.CsTools.StringExtensions.GetCasing(String)
+  nameWithType: StringExtensions.GetCasing(string)
+  nameWithType.vb: StringExtensions.GetCasing(String)
+- uid: FireBlade.CsTools.StringExtensions.GetCasing*
+  name: GetCasing
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_GetCasing_
+  commentId: Overload:FireBlade.CsTools.StringExtensions.GetCasing
+  isSpec: "True"
+  fullName: FireBlade.CsTools.StringExtensions.GetCasing
+  nameWithType: StringExtensions.GetCasing
+- uid: FireBlade.CsTools.StringExtensions.GetString(System.Collections.Generic.IEnumerable{System.Char})
+  name: GetString(IEnumerable<char>)
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_GetString_System_Collections_Generic_IEnumerable_System_Char__
+  commentId: M:FireBlade.CsTools.StringExtensions.GetString(System.Collections.Generic.IEnumerable{System.Char})
+  name.vb: GetString(IEnumerable(Of Char))
+  fullName: FireBlade.CsTools.StringExtensions.GetString(System.Collections.Generic.IEnumerable<char>)
+  fullName.vb: FireBlade.CsTools.StringExtensions.GetString(System.Collections.Generic.IEnumerable(Of Char))
+  nameWithType: StringExtensions.GetString(IEnumerable<char>)
+  nameWithType.vb: StringExtensions.GetString(IEnumerable(Of Char))
+- uid: FireBlade.CsTools.StringExtensions.GetString*
+  name: GetString
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_GetString_
+  commentId: Overload:FireBlade.CsTools.StringExtensions.GetString
+  isSpec: "True"
+  fullName: FireBlade.CsTools.StringExtensions.GetString
+  nameWithType: StringExtensions.GetString
+- uid: FireBlade.CsTools.StringExtensions.IsNotNullOrEmpty(System.String)
+  name: IsNotNullOrEmpty(string?)
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_IsNotNullOrEmpty_System_String_
+  commentId: M:FireBlade.CsTools.StringExtensions.IsNotNullOrEmpty(System.String)
+  name.vb: IsNotNullOrEmpty(String)
+  fullName: FireBlade.CsTools.StringExtensions.IsNotNullOrEmpty(string?)
+  fullName.vb: FireBlade.CsTools.StringExtensions.IsNotNullOrEmpty(String)
+  nameWithType: StringExtensions.IsNotNullOrEmpty(string?)
+  nameWithType.vb: StringExtensions.IsNotNullOrEmpty(String)
+- uid: FireBlade.CsTools.StringExtensions.IsNotNullOrEmpty*
+  name: IsNotNullOrEmpty
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_IsNotNullOrEmpty_
+  commentId: Overload:FireBlade.CsTools.StringExtensions.IsNotNullOrEmpty
+  isSpec: "True"
+  fullName: FireBlade.CsTools.StringExtensions.IsNotNullOrEmpty
+  nameWithType: StringExtensions.IsNotNullOrEmpty
+- uid: FireBlade.CsTools.StringExtensions.IsNotNullOrWhiteSpace(System.String)
+  name: IsNotNullOrWhiteSpace(string?)
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_IsNotNullOrWhiteSpace_System_String_
+  commentId: M:FireBlade.CsTools.StringExtensions.IsNotNullOrWhiteSpace(System.String)
+  name.vb: IsNotNullOrWhiteSpace(String)
+  fullName: FireBlade.CsTools.StringExtensions.IsNotNullOrWhiteSpace(string?)
+  fullName.vb: FireBlade.CsTools.StringExtensions.IsNotNullOrWhiteSpace(String)
+  nameWithType: StringExtensions.IsNotNullOrWhiteSpace(string?)
+  nameWithType.vb: StringExtensions.IsNotNullOrWhiteSpace(String)
+- uid: FireBlade.CsTools.StringExtensions.IsNotNullOrWhiteSpace*
+  name: IsNotNullOrWhiteSpace
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_IsNotNullOrWhiteSpace_
+  commentId: Overload:FireBlade.CsTools.StringExtensions.IsNotNullOrWhiteSpace
+  isSpec: "True"
+  fullName: FireBlade.CsTools.StringExtensions.IsNotNullOrWhiteSpace
+  nameWithType: StringExtensions.IsNotNullOrWhiteSpace
+- uid: FireBlade.CsTools.StringExtensions.IsNullOrEmpty(System.String)
+  name: IsNullOrEmpty(string?)
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_IsNullOrEmpty_System_String_
+  commentId: M:FireBlade.CsTools.StringExtensions.IsNullOrEmpty(System.String)
+  name.vb: IsNullOrEmpty(String)
+  fullName: FireBlade.CsTools.StringExtensions.IsNullOrEmpty(string?)
+  fullName.vb: FireBlade.CsTools.StringExtensions.IsNullOrEmpty(String)
+  nameWithType: StringExtensions.IsNullOrEmpty(string?)
+  nameWithType.vb: StringExtensions.IsNullOrEmpty(String)
+- uid: FireBlade.CsTools.StringExtensions.IsNullOrEmpty*
+  name: IsNullOrEmpty
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_IsNullOrEmpty_
+  commentId: Overload:FireBlade.CsTools.StringExtensions.IsNullOrEmpty
+  isSpec: "True"
+  fullName: FireBlade.CsTools.StringExtensions.IsNullOrEmpty
+  nameWithType: StringExtensions.IsNullOrEmpty
+- uid: FireBlade.CsTools.StringExtensions.IsNullOrWhiteSpace(System.String)
+  name: IsNullOrWhiteSpace(string?)
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_IsNullOrWhiteSpace_System_String_
+  commentId: M:FireBlade.CsTools.StringExtensions.IsNullOrWhiteSpace(System.String)
+  name.vb: IsNullOrWhiteSpace(String)
+  fullName: FireBlade.CsTools.StringExtensions.IsNullOrWhiteSpace(string?)
+  fullName.vb: FireBlade.CsTools.StringExtensions.IsNullOrWhiteSpace(String)
+  nameWithType: StringExtensions.IsNullOrWhiteSpace(string?)
+  nameWithType.vb: StringExtensions.IsNullOrWhiteSpace(String)
+- uid: FireBlade.CsTools.StringExtensions.IsNullOrWhiteSpace*
+  name: IsNullOrWhiteSpace
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_IsNullOrWhiteSpace_
+  commentId: Overload:FireBlade.CsTools.StringExtensions.IsNullOrWhiteSpace
+  isSpec: "True"
+  fullName: FireBlade.CsTools.StringExtensions.IsNullOrWhiteSpace
+  nameWithType: StringExtensions.IsNullOrWhiteSpace
+- uid: FireBlade.CsTools.StringExtensions.IsPalindrome(System.String)
+  name: IsPalindrome(string)
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_IsPalindrome_System_String_
+  commentId: M:FireBlade.CsTools.StringExtensions.IsPalindrome(System.String)
+  name.vb: IsPalindrome(String)
+  fullName: FireBlade.CsTools.StringExtensions.IsPalindrome(string)
+  fullName.vb: FireBlade.CsTools.StringExtensions.IsPalindrome(String)
+  nameWithType: StringExtensions.IsPalindrome(string)
+  nameWithType.vb: StringExtensions.IsPalindrome(String)
+- uid: FireBlade.CsTools.StringExtensions.IsPalindrome*
+  name: IsPalindrome
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_IsPalindrome_
+  commentId: Overload:FireBlade.CsTools.StringExtensions.IsPalindrome
+  isSpec: "True"
+  fullName: FireBlade.CsTools.StringExtensions.IsPalindrome
+  nameWithType: StringExtensions.IsPalindrome
+- uid: FireBlade.CsTools.StringExtensions.ParseNumber*
+  name: ParseNumber
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_ParseNumber_
+  commentId: Overload:FireBlade.CsTools.StringExtensions.ParseNumber
+  isSpec: "True"
+  fullName: FireBlade.CsTools.StringExtensions.ParseNumber
+  nameWithType: StringExtensions.ParseNumber
+- uid: FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String)
+  name: ParseNumber<TNum>(string)
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_ParseNumber__1_System_String_
+  commentId: M:FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String)
+  name.vb: ParseNumber(Of TNum)(String)
+  fullName: FireBlade.CsTools.StringExtensions.ParseNumber<TNum>(string)
+  fullName.vb: FireBlade.CsTools.StringExtensions.ParseNumber(Of TNum)(String)
+  nameWithType: StringExtensions.ParseNumber<TNum>(string)
+  nameWithType.vb: StringExtensions.ParseNumber(Of TNum)(String)
+- uid: FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String,System.Globalization.NumberStyles)
+  name: ParseNumber<TNum>(string, NumberStyles)
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_ParseNumber__1_System_String_System_Globalization_NumberStyles_
+  commentId: M:FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String,System.Globalization.NumberStyles)
+  name.vb: ParseNumber(Of TNum)(String, NumberStyles)
+  fullName: FireBlade.CsTools.StringExtensions.ParseNumber<TNum>(string, System.Globalization.NumberStyles)
+  fullName.vb: FireBlade.CsTools.StringExtensions.ParseNumber(Of TNum)(String, System.Globalization.NumberStyles)
+  nameWithType: StringExtensions.ParseNumber<TNum>(string, NumberStyles)
+  nameWithType.vb: StringExtensions.ParseNumber(Of TNum)(String, NumberStyles)
+- uid: FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
+  name: ParseNumber<TNum>(string, NumberStyles, IFormatProvider)
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_ParseNumber__1_System_String_System_Globalization_NumberStyles_System_IFormatProvider_
+  commentId: M:FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
+  name.vb: ParseNumber(Of TNum)(String, NumberStyles, IFormatProvider)
+  fullName: FireBlade.CsTools.StringExtensions.ParseNumber<TNum>(string, System.Globalization.NumberStyles, System.IFormatProvider)
+  fullName.vb: FireBlade.CsTools.StringExtensions.ParseNumber(Of TNum)(String, System.Globalization.NumberStyles, System.IFormatProvider)
+  nameWithType: StringExtensions.ParseNumber<TNum>(string, NumberStyles, IFormatProvider)
+  nameWithType.vb: StringExtensions.ParseNumber(Of TNum)(String, NumberStyles, IFormatProvider)
+- uid: FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String,System.IFormatProvider)
+  name: ParseNumber<TNum>(string, IFormatProvider)
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_ParseNumber__1_System_String_System_IFormatProvider_
+  commentId: M:FireBlade.CsTools.StringExtensions.ParseNumber``1(System.String,System.IFormatProvider)
+  name.vb: ParseNumber(Of TNum)(String, IFormatProvider)
+  fullName: FireBlade.CsTools.StringExtensions.ParseNumber<TNum>(string, System.IFormatProvider)
+  fullName.vb: FireBlade.CsTools.StringExtensions.ParseNumber(Of TNum)(String, System.IFormatProvider)
+  nameWithType: StringExtensions.ParseNumber<TNum>(string, IFormatProvider)
+  nameWithType.vb: StringExtensions.ParseNumber(Of TNum)(String, IFormatProvider)
+- uid: FireBlade.CsTools.StringExtensions.SetCasing(System.String,FireBlade.CsTools.StringCasing)
+  name: SetCasing(string, StringCasing)
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_SetCasing_System_String_FireBlade_CsTools_StringCasing_
+  commentId: M:FireBlade.CsTools.StringExtensions.SetCasing(System.String,FireBlade.CsTools.StringCasing)
+  name.vb: SetCasing(String, StringCasing)
+  fullName: FireBlade.CsTools.StringExtensions.SetCasing(string, FireBlade.CsTools.StringCasing)
+  fullName.vb: FireBlade.CsTools.StringExtensions.SetCasing(String, FireBlade.CsTools.StringCasing)
+  nameWithType: StringExtensions.SetCasing(string, StringCasing)
+  nameWithType.vb: StringExtensions.SetCasing(String, StringCasing)
+- uid: FireBlade.CsTools.StringExtensions.SetCasing*
+  name: SetCasing
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_SetCasing_
+  commentId: Overload:FireBlade.CsTools.StringExtensions.SetCasing
+  isSpec: "True"
+  fullName: FireBlade.CsTools.StringExtensions.SetCasing
+  nameWithType: StringExtensions.SetCasing
+- uid: FireBlade.CsTools.StringExtensions.TryParseNumber*
+  name: TryParseNumber
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_TryParseNumber_
+  commentId: Overload:FireBlade.CsTools.StringExtensions.TryParseNumber
+  isSpec: "True"
+  fullName: FireBlade.CsTools.StringExtensions.TryParseNumber
+  nameWithType: StringExtensions.TryParseNumber
+- uid: FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,System.Globalization.NumberStyles,``0@)
+  name: TryParseNumber<TNum>(string, NumberStyles, out TNum)
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_TryParseNumber__1_System_String_System_Globalization_NumberStyles___0__
+  commentId: M:FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,System.Globalization.NumberStyles,``0@)
+  name.vb: TryParseNumber(Of TNum)(String, NumberStyles, TNum)
+  fullName: FireBlade.CsTools.StringExtensions.TryParseNumber<TNum>(string, System.Globalization.NumberStyles, out TNum)
+  fullName.vb: FireBlade.CsTools.StringExtensions.TryParseNumber(Of TNum)(String, System.Globalization.NumberStyles, TNum)
+  nameWithType: StringExtensions.TryParseNumber<TNum>(string, NumberStyles, out TNum)
+  nameWithType.vb: StringExtensions.TryParseNumber(Of TNum)(String, NumberStyles, TNum)
+- uid: FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,System.IFormatProvider,System.Globalization.NumberStyles,``0@)
+  name: TryParseNumber<TNum>(string, IFormatProvider, NumberStyles, out TNum)
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_TryParseNumber__1_System_String_System_IFormatProvider_System_Globalization_NumberStyles___0__
+  commentId: M:FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,System.IFormatProvider,System.Globalization.NumberStyles,``0@)
+  name.vb: TryParseNumber(Of TNum)(String, IFormatProvider, NumberStyles, TNum)
+  fullName: FireBlade.CsTools.StringExtensions.TryParseNumber<TNum>(string, System.IFormatProvider, System.Globalization.NumberStyles, out TNum)
+  fullName.vb: FireBlade.CsTools.StringExtensions.TryParseNumber(Of TNum)(String, System.IFormatProvider, System.Globalization.NumberStyles, TNum)
+  nameWithType: StringExtensions.TryParseNumber<TNum>(string, IFormatProvider, NumberStyles, out TNum)
+  nameWithType.vb: StringExtensions.TryParseNumber(Of TNum)(String, IFormatProvider, NumberStyles, TNum)
+- uid: FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,System.IFormatProvider,``0@)
+  name: TryParseNumber<TNum>(string, IFormatProvider, out TNum)
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_TryParseNumber__1_System_String_System_IFormatProvider___0__
+  commentId: M:FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,System.IFormatProvider,``0@)
+  name.vb: TryParseNumber(Of TNum)(String, IFormatProvider, TNum)
+  fullName: FireBlade.CsTools.StringExtensions.TryParseNumber<TNum>(string, System.IFormatProvider, out TNum)
+  fullName.vb: FireBlade.CsTools.StringExtensions.TryParseNumber(Of TNum)(String, System.IFormatProvider, TNum)
+  nameWithType: StringExtensions.TryParseNumber<TNum>(string, IFormatProvider, out TNum)
+  nameWithType.vb: StringExtensions.TryParseNumber(Of TNum)(String, IFormatProvider, TNum)
+- uid: FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,``0@)
+  name: TryParseNumber<TNum>(string, out TNum)
+  href: api/FireBlade.CsTools.StringExtensions.html#FireBlade_CsTools_StringExtensions_TryParseNumber__1_System_String___0__
+  commentId: M:FireBlade.CsTools.StringExtensions.TryParseNumber``1(System.String,``0@)
+  name.vb: TryParseNumber(Of TNum)(String, TNum)
+  fullName: FireBlade.CsTools.StringExtensions.TryParseNumber<TNum>(string, out TNum)
+  fullName.vb: FireBlade.CsTools.StringExtensions.TryParseNumber(Of TNum)(String, TNum)
+  nameWithType: StringExtensions.TryParseNumber<TNum>(string, out TNum)
+  nameWithType.vb: StringExtensions.TryParseNumber(Of TNum)(String, TNum)
