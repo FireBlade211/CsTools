@@ -359,12 +359,12 @@ namespace FireBlade.CsTools
         Alternating,
         /// <summary>
         /// Every 1st character is uppercase, and every 2nd character is lowercase, or reverse. Cannot be retrieved
-        /// through <see cref="StringExtensions.GetCasing(string)"/> (see <see cref="Flip"/> instead).
+        /// through <see cref="StringExtensions.GetCasing(string)"/> (see <see cref="Alternating"/> instead).
         /// </summary>
         AlternatingNormal,
         /// <summary>
         /// Every 2nd character is uppercase, and every 1st character is lowercase, or reverse. Cannot be retrieved through
-        /// <see cref="StringExtensions.GetCasing(string)"/> (see <see cref="Flip"/> instead).
+        /// <see cref="StringExtensions.GetCasing(string)"/> (see <see cref="Alternating"/> instead).
         /// </summary>
         AlternatingReverse
     }
