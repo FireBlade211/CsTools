@@ -30,3 +30,5 @@ MathTools.IsOdd(3);
 # Usage
 To use the library, download the DLL from the [Releases](https://github.com/FireBlade211/CsTools/releases) page, and add it as a reference in your project within Visual Studio.
 The base namespace is `FireBlade.CsTools`. For the math functions and utilities, use `FireBlade.CsTools.Numbers`.
+
+For documentation, visit the [CsTools documentation page](https://fireblade211.github.io/CsTools/).
