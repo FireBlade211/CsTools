@@ -24,7 +24,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: NumberExtensions
-    path: ../CsTools/Numbers/NumberExtensions.cs
+    path: CsTools/Numbers/NumberExtensions.cs
     startLine: 7
   assemblies:
   - CsTools
@@ -62,7 +62,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: IsInRange
-    path: ../CsTools/Numbers/NumberExtensions.cs
+    path: CsTools/Numbers/NumberExtensions.cs
     startLine: 18
   assemblies:
   - CsTools
@@ -114,7 +114,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: IsInRange
-    path: ../CsTools/Numbers/NumberExtensions.cs
+    path: CsTools/Numbers/NumberExtensions.cs
     startLine: 35
   assemblies:
   - CsTools
@@ -166,7 +166,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: IsInRange
-    path: ../CsTools/Numbers/NumberExtensions.cs
+    path: CsTools/Numbers/NumberExtensions.cs
     startLine: 49
   assemblies:
   - CsTools
@@ -218,7 +218,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: IsInRange
-    path: ../CsTools/Numbers/NumberExtensions.cs
+    path: CsTools/Numbers/NumberExtensions.cs
     startLine: 63
   assemblies:
   - CsTools
@@ -270,7 +270,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: IsInRange
-    path: ../CsTools/Numbers/NumberExtensions.cs
+    path: CsTools/Numbers/NumberExtensions.cs
     startLine: 77
   assemblies:
   - CsTools
@@ -322,7 +322,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: IsInRange
-    path: ../CsTools/Numbers/NumberExtensions.cs
+    path: CsTools/Numbers/NumberExtensions.cs
     startLine: 90
   assemblies:
   - CsTools

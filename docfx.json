@@ -4,7 +4,7 @@
     {
       "src": [
         {
-          "src": "..",
+          "src": ".",
           "files": [
             "CsTools/CsTools.csproj"
           ]
@@ -31,7 +31,7 @@
         ]
       }
     ],
-    "output": "_site",
+    "output": "gh-pages/docs",
     "template": [
       "default",
       "modern"

@@ -29,7 +29,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: StringCasing
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 311
   assemblies:
   - CsTools
@@ -56,7 +56,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: Other
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 317
   assemblies:
   - CsTools
@@ -87,7 +87,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: Upper
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 322
   assemblies:
   - CsTools
@@ -116,7 +116,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: Lower
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 327
   assemblies:
   - CsTools
@@ -145,7 +145,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: Title
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 332
   assemblies:
   - CsTools
@@ -174,7 +174,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: Pascal
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 337
   assemblies:
   - CsTools
@@ -203,7 +203,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: Camel
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 342
   assemblies:
   - CsTools
@@ -232,7 +232,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: Snake
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 347
   assemblies:
   - CsTools
@@ -261,7 +261,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: Inverse
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 352
   assemblies:
   - CsTools
@@ -290,7 +290,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: Alternating
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 358
   assemblies:
   - CsTools
@@ -322,7 +322,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: AlternatingNormal
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 363
   assemblies:
   - CsTools
@@ -353,7 +353,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: AlternatingReverse
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 368
   assemblies:
   - CsTools

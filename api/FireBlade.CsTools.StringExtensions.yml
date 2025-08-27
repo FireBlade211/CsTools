@@ -34,7 +34,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: StringExtensions
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 9
   assemblies:
   - CsTools
@@ -72,7 +72,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: IsNullOrEmpty
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 16
   assemblies:
   - CsTools
@@ -111,7 +111,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: IsNullOrWhiteSpace
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 24
   assemblies:
   - CsTools
@@ -152,7 +152,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: IsNotNullOrEmpty
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 31
   assemblies:
   - CsTools
@@ -191,7 +191,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: IsNotNullOrWhiteSpace
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 39
   assemblies:
   - CsTools
@@ -232,7 +232,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: TryParseNumber
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 48
   assemblies:
   - CsTools
@@ -277,7 +277,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: TryParseNumber
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 58
   assemblies:
   - CsTools
@@ -325,7 +325,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: TryParseNumber
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 69
   assemblies:
   - CsTools
@@ -373,7 +373,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: TryParseNumber
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 81
   assemblies:
   - CsTools
@@ -424,7 +424,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: ParseNumber
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 90
   assemblies:
   - CsTools
@@ -466,7 +466,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: ParseNumber
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 98
   assemblies:
   - CsTools
@@ -511,7 +511,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: ParseNumber
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 106
   assemblies:
   - CsTools
@@ -556,7 +556,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: ParseNumber
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 115
   assemblies:
   - CsTools
@@ -604,7 +604,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: GetString
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 122
   assemblies:
   - CsTools
@@ -643,7 +643,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: GetCasing
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 129
   assemblies:
   - CsTools
@@ -682,7 +682,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: SetCasing
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 250
   assemblies:
   - CsTools
@@ -724,7 +724,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: IsPalindrome
-    path: ../CsTools/StringExtensions.cs
+    path: CsTools/StringExtensions.cs
     startLine: 305
   assemblies:
   - CsTools

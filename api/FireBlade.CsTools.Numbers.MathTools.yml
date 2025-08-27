@@ -22,7 +22,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: MathTools
-    path: ../CsTools/Numbers/MathTools.cs
+    path: CsTools/Numbers/MathTools.cs
     startLine: 7
   assemblies:
   - CsTools
@@ -59,7 +59,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: Map
-    path: ../CsTools/Numbers/MathTools.cs
+    path: CsTools/Numbers/MathTools.cs
     startLine: 17
   assemblies:
   - CsTools
@@ -106,7 +106,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: Mod
-    path: ../CsTools/Numbers/MathTools.cs
+    path: CsTools/Numbers/MathTools.cs
     startLine: 40
   assemblies:
   - CsTools
@@ -153,7 +153,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: IsOdd
-    path: ../CsTools/Numbers/MathTools.cs
+    path: CsTools/Numbers/MathTools.cs
     startLine: 60
   assemblies:
   - CsTools
@@ -194,7 +194,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: IsEven
-    path: ../CsTools/Numbers/MathTools.cs
+    path: CsTools/Numbers/MathTools.cs
     startLine: 71
   assemblies:
   - CsTools

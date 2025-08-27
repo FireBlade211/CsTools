@@ -23,7 +23,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: Range
-    path: ../CsTools/Numbers/MathTypes.cs
+    path: CsTools/Numbers/MathTypes.cs
     startLine: 8
   assemblies:
   - CsTools
@@ -66,7 +66,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: Minimum
-    path: ../CsTools/Numbers/MathTypes.cs
+    path: CsTools/Numbers/MathTypes.cs
     startLine: 17
   assemblies:
   - CsTools
@@ -103,7 +103,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: Maximum
-    path: ../CsTools/Numbers/MathTypes.cs
+    path: CsTools/Numbers/MathTypes.cs
     startLine: 34
   assemblies:
   - CsTools
@@ -140,7 +140,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: .ctor
-    path: ../CsTools/Numbers/MathTypes.cs
+    path: CsTools/Numbers/MathTypes.cs
     startLine: 53
   assemblies:
   - CsTools
@@ -176,7 +176,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: IsInRange
-    path: ../CsTools/Numbers/MathTypes.cs
+    path: CsTools/Numbers/MathTypes.cs
     startLine: 66
   assemblies:
   - CsTools
@@ -217,7 +217,7 @@ items:
       branch: main
       repo: https://github.com/FireBlade211/CsTools.git
     id: Length
-    path: ../CsTools/Numbers/MathTypes.cs
+    path: CsTools/Numbers/MathTypes.cs
     startLine: 71
   assemblies:
   - CsTools
